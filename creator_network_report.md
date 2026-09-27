@@ -1,6 +1,6 @@
-Most computer languages are built alone. That is what I found: of the 1,182 languages in the Programming Language Database (PLDB) that name their creators, 85% list a single author.
-
 ![Creator co-authorship network](featured.png)
+
+Most computer languages are built alone. That is what I found: of the 1,182 languages in the Programming Language Database (PLDB) that name their creators, 85% list a single author.
 
 **Computer language co-authorship network**. PLDB is a knowledge graph of computer languages. I projected the graph down to people, linking creators whenever they share a language.
 
