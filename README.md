@@ -16,7 +16,7 @@ PLDB (github.com/breck7/pldb) stores each concept (languages, editors, file
 formats, OSes) as one `.scroll` file under `concepts/`. Clone it:
 
 ```bash
-git clone --depth 1 https://github.com/breck7/pldb.git
+make data   # or: git clone --depth 1 https://github.com/breck7/pldb.git
 ```
 
 Only concepts tagged as computer languages (`LANGUAGE_TAGS` in
@@ -38,8 +38,8 @@ Only concepts tagged as computer languages (`LANGUAGE_TAGS` in
 ```bash
 pip install pandas networkx
 
-python3 build_corrected_graph.py        # corrected graph → JSON + HTML
-python3 network_stats.py                # statistics → network_stats.json
+make graph    # fetch data if needed, then build → JSON + HTML
+make stats    # statistics → network_stats.json
 ```
 
 Open `creator_network_d3.html` in a browser. The page needs an internet
