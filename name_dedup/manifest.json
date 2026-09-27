@@ -1,0 +1,63 @@
+{
+ "total_nodes": 689,
+ "total_components": 220,
+ "total_leads": 20,
+ "batches": [
+  {
+   "id": "b1",
+   "path": "/home/one/Documents/testes/pl/name_dedup/batches/batch_01.json",
+   "ranks": "1-7",
+   "components": 7,
+   "nodes": 79,
+   "leads": 4
+  },
+  {
+   "id": "b2",
+   "path": "/home/one/Documents/testes/pl/name_dedup/batches/batch_02.json",
+   "ranks": "8-14",
+   "components": 7,
+   "nodes": 50,
+   "leads": 4
+  },
+  {
+   "id": "b3",
+   "path": "/home/one/Documents/testes/pl/name_dedup/batches/batch_03.json",
+   "ranks": "15-21",
+   "components": 7,
+   "nodes": 42,
+   "leads": 0
+  },
+  {
+   "id": "b4",
+   "path": "/home/one/Documents/testes/pl/name_dedup/batches/batch_04.json",
+   "ranks": "22-71",
+   "components": 50,
+   "nodes": 193,
+   "leads": 10
+  },
+  {
+   "id": "b5",
+   "path": "/home/one/Documents/testes/pl/name_dedup/batches/batch_05.json",
+   "ranks": "72-121",
+   "components": 50,
+   "nodes": 127,
+   "leads": 2
+  },
+  {
+   "id": "b6",
+   "path": "/home/one/Documents/testes/pl/name_dedup/batches/batch_06.json",
+   "ranks": "122-171",
+   "components": 50,
+   "nodes": 100,
+   "leads": 0
+  },
+  {
+   "id": "b7",
+   "path": "/home/one/Documents/testes/pl/name_dedup/batches/batch_07.json",
+   "ranks": "172-220",
+   "components": 49,
+   "nodes": 98,
+   "leads": 0
+  }
+ ]
+}

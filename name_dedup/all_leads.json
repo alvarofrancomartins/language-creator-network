@@ -1,0 +1,122 @@
+[
+ {
+  "a": "Dan Weinreb",
+  "b": "Daniel Weinreb",
+  "type": "FUZZY",
+  "why": "fuzzy similarity 0.88: 'dan weinreb' vs 'daniel weinreb'; share neighbor(s) ['David A. Moon']"
+ },
+ {
+  "a": "Mary Fernandez",
+  "b": "Mary Fernández",
+  "type": "FUZZY",
+  "why": "fuzzy similarity 0.93: 'mary fernandez' vs 'mary fernández'; share neighbor(s) ['Dan Suciu']"
+ },
+ {
+  "a": "John G. Kemeny",
+  "b": "John George Kemeny",
+  "type": "INIT+MISSING_EDGE",
+  "why": "initial expansion: 'john g kemeny' vs 'john george kemeny'; share neighbor(s) ['Thomas E. Kurtz']; MISSING_EDGE: not adjacent but share neighbor(s) ['Thomas E. Kurtz'] (jaccard 1.00)"
+ },
+ {
+  "a": "Ronald Kaplan",
+  "b": "Terry Winograd",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Daniel G. Bobrow'] (jaccard 0.50)"
+ },
+ {
+  "a": "Terry Winograd",
+  "b": "Warren Teitelman",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Daniel G. Bobrow'] (jaccard 0.50)"
+ },
+ {
+  "a": "Daniel Weinreb",
+  "b": "John Sundell",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['David A. Moon'] (jaccard 0.50)"
+ },
+ {
+  "a": "Dave Moon",
+  "b": "Gerald Jay Sussman",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Guy Steele'] (jaccard 1.00)"
+ },
+ {
+  "a": "John Sundell",
+  "b": "Richard Stallman",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['David A. Moon'] (jaccard 0.50)"
+ },
+ {
+  "a": "Marc Tilbrook",
+  "b": "Norbert E. Fuchs",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Rolf Schwitter'] (jaccard 1.00)"
+ },
+ {
+  "a": "Guillermo Rauch",
+  "b": "Wojciech Danilo",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['TJ Holowaychuk'] (jaccard 1.00)"
+ },
+ {
+  "a": "Hanspeter Mössenböck",
+  "b": "Tony Hoare",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Niklaus Wirth'] (jaccard 1.00)"
+ },
+ {
+  "a": "Ingy döt Net",
+  "b": "Kirill Simonov",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Clark Evans'] (jaccard 0.50)"
+ },
+ {
+  "a": "Kirill Simonov",
+  "b": "Oren Ben-Kiki",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Clark Evans'] (jaccard 0.50)"
+ },
+ {
+  "a": "Margo Seltzer",
+  "b": "Michael Cahill",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Keith Bostic'] (jaccard 1.00)"
+ },
+ {
+  "a": "Phil Karn",
+  "b": "Phil Lapsley",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Brian Kantor'] (jaccard 1.00)"
+ },
+ {
+  "a": "PlasDev",
+  "b": "zplusfour",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['CompilingCoder', 'Hg0428', 'JustCoding123'] (jaccard 0.60)"
+ },
+ {
+  "a": "TheBoys619",
+  "b": "zplusfour",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['CompilingCoder', 'Hg0428', 'JustCoding123'] (jaccard 0.60)"
+ },
+ {
+  "a": "ZDev1",
+  "b": "zplusfour",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['CompilingCoder', 'Hg0428', 'JustCoding123'] (jaccard 0.60)"
+ },
+ {
+  "a": "Erick Gallesio",
+  "b": "Kasper Lund",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Florian Loitsch'] (jaccard 0.50)"
+ },
+ {
+  "a": "Kasper Lund",
+  "b": "Manuel Serrano",
+  "type": "MISSING_EDGE",
+  "why": "not adjacent but share neighbor(s) ['Florian Loitsch'] (jaccard 0.50)"
+ }
+]

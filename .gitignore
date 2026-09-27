@@ -1,0 +1,5 @@
+# upstream data, cloned on demand (see `make data`)
+pldb/
+
+__pycache__/
+*.pyc

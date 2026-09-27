@@ -1,0 +1,2062 @@
+{
+ "batch": "b5",
+ "components": [
+  {
+   "rank": 72,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Eric Jones",
+     "languages": [
+      "SciPy"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Pearu Peterson",
+     "languages": [
+      "SciPy"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Travis Oliphant",
+     "languages": [
+      "NumPy",
+      "SciPy"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Eric Jones",
+     "target": "Travis Oliphant",
+     "shared": [
+      "SciPy"
+     ]
+    },
+    {
+     "source": "Eric Jones",
+     "target": "Pearu Peterson",
+     "shared": [
+      "SciPy"
+     ]
+    },
+    {
+     "source": "Pearu Peterson",
+     "target": "Travis Oliphant",
+     "shared": [
+      "SciPy"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 73,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Larry Masinter",
+     "languages": [
+      "URI"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Roy Thomas Fielding",
+     "languages": [
+      "URI"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Tim Berners-Lee",
+     "languages": [
+      "HTML",
+      "HTTP",
+      "Notation3",
+      "Solid",
+      "URI",
+      "URL",
+      "World Wide Web",
+      "WorldWideWeb Browser"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Larry Masinter",
+     "target": "Tim Berners-Lee",
+     "shared": [
+      "URI"
+     ]
+    },
+    {
+     "source": "Larry Masinter",
+     "target": "Roy Thomas Fielding",
+     "shared": [
+      "URI"
+     ]
+    },
+    {
+     "source": "Roy Thomas Fielding",
+     "target": "Tim Berners-Lee",
+     "shared": [
+      "URI"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 74,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Mark Phillips",
+     "languages": [
+      "Geomview",
+      "Object File Format"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Stuart Levy",
+     "languages": [
+      "Geomview",
+      "Object File Format"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Tamara Munzner",
+     "languages": [
+      "Geomview",
+      "Object File Format"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Mark Phillips",
+     "target": "Stuart Levy",
+     "shared": [
+      "Geomview",
+      "Object File Format"
+     ]
+    },
+    {
+     "source": "Mark Phillips",
+     "target": "Tamara Munzner",
+     "shared": [
+      "Geomview",
+      "Object File Format"
+     ]
+    },
+    {
+     "source": "Stuart Levy",
+     "target": "Tamara Munzner",
+     "shared": [
+      "Geomview",
+      "Object File Format"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 75,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Erik Demaine",
+     "languages": [
+      "Fold"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Jason S. Ku",
+     "languages": [
+      "Fold"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Robert J. Lang",
+     "languages": [
+      "Fold"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Erik Demaine",
+     "target": "Jason S. Ku",
+     "shared": [
+      "Fold"
+     ]
+    },
+    {
+     "source": "Erik Demaine",
+     "target": "Robert J. Lang",
+     "shared": [
+      "Fold"
+     ]
+    },
+    {
+     "source": "Jason S. Ku",
+     "target": "Robert J. Lang",
+     "shared": [
+      "Fold"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 76,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Keith Bostic",
+     "languages": [
+      "Berkeley DB",
+      "WiredTiger"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Margo Seltzer",
+     "languages": [
+      "Berkeley DB"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Michael Cahill",
+     "languages": [
+      "WiredTiger"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Keith Bostic",
+     "target": "Michael Cahill",
+     "shared": [
+      "WiredTiger"
+     ]
+    },
+    {
+     "source": "Keith Bostic",
+     "target": "Margo Seltzer",
+     "shared": [
+      "Berkeley DB"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 77,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Messju Mohr",
+     "languages": [
+      "Smarty"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Monte Ohrt",
+     "languages": [
+      "Smarty"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Uwe Tews",
+     "languages": [
+      "Smarty"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Messju Mohr",
+     "target": "Monte Ohrt",
+     "shared": [
+      "Smarty"
+     ]
+    },
+    {
+     "source": "Messju Mohr",
+     "target": "Uwe Tews",
+     "shared": [
+      "Smarty"
+     ]
+    },
+    {
+     "source": "Monte Ohrt",
+     "target": "Uwe Tews",
+     "shared": [
+      "Smarty"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 78,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Brian Kantor",
+     "languages": [
+      "AMPRNet",
+      "NNTP"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Phil Karn",
+     "languages": [
+      "AMPRNet"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Phil Lapsley",
+     "languages": [
+      "NNTP"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Brian Kantor",
+     "target": "Phil Karn",
+     "shared": [
+      "AMPRNet"
+     ]
+    },
+    {
+     "source": "Brian Kantor",
+     "target": "Phil Lapsley",
+     "shared": [
+      "NNTP"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 79,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Philip R. Kennicott",
+     "languages": [
+      "IGES"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Roger N. Nagel",
+     "languages": [
+      "IGES"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Walt W. Braithwaite",
+     "languages": [
+      "IGES"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Philip R. Kennicott",
+     "target": "Roger N. Nagel",
+     "shared": [
+      "IGES"
+     ]
+    },
+    {
+     "source": "Philip R. Kennicott",
+     "target": "Walt W. Braithwaite",
+     "shared": [
+      "IGES"
+     ]
+    },
+    {
+     "source": "Roger N. Nagel",
+     "target": "Walt W. Braithwaite",
+     "shared": [
+      "IGES"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 80,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Benjamin Grosof",
+     "languages": [
+      "RuleML"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Harold Boley",
+     "languages": [
+      "RuleML"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Said Tabet",
+     "languages": [
+      "RuleML"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Benjamin Grosof",
+     "target": "Harold Boley",
+     "shared": [
+      "RuleML"
+     ]
+    },
+    {
+     "source": "Benjamin Grosof",
+     "target": "Said Tabet",
+     "shared": [
+      "RuleML"
+     ]
+    },
+    {
+     "source": "Harold Boley",
+     "target": "Said Tabet",
+     "shared": [
+      "RuleML"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 81,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Antonio Albano",
+     "languages": [
+      "Fibonacci"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Giorgio Ghelli",
+     "languages": [
+      "Fibonacci"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Renzo Orsini",
+     "languages": [
+      "Fibonacci"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Antonio Albano",
+     "target": "Giorgio Ghelli",
+     "shared": [
+      "Fibonacci"
+     ]
+    },
+    {
+     "source": "Antonio Albano",
+     "target": "Renzo Orsini",
+     "shared": [
+      "Fibonacci"
+     ]
+    },
+    {
+     "source": "Giorgio Ghelli",
+     "target": "Renzo Orsini",
+     "shared": [
+      "Fibonacci"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 82,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Brendan Burns",
+     "languages": [
+      "Kubernetes"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Craig McLuckie",
+     "languages": [
+      "Kubernetes"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Joe Beda",
+     "languages": [
+      "Kubernetes"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Brendan Burns",
+     "target": "Craig McLuckie",
+     "shared": [
+      "Kubernetes"
+     ]
+    },
+    {
+     "source": "Brendan Burns",
+     "target": "Joe Beda",
+     "shared": [
+      "Kubernetes"
+     ]
+    },
+    {
+     "source": "Craig McLuckie",
+     "target": "Joe Beda",
+     "shared": [
+      "Kubernetes"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 83,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Antoine Latter",
+     "languages": [
+      "Parsec"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Daan Leijen",
+     "languages": [
+      "Koka",
+      "Parsec"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Paolo Martini",
+     "languages": [
+      "Parsec"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Antoine Latter",
+     "target": "Daan Leijen",
+     "shared": [
+      "Parsec"
+     ]
+    },
+    {
+     "source": "Antoine Latter",
+     "target": "Paolo Martini",
+     "shared": [
+      "Parsec"
+     ]
+    },
+    {
+     "source": "Daan Leijen",
+     "target": "Paolo Martini",
+     "shared": [
+      "Parsec"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 84,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Eleftherios Koutsofios",
+     "languages": [
+      "DOT"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Emden R. Gansner",
+     "languages": [
+      "DOT"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Stephen North",
+     "languages": [
+      "DOT"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Eleftherios Koutsofios",
+     "target": "Emden R. Gansner",
+     "shared": [
+      "DOT"
+     ]
+    },
+    {
+     "source": "Eleftherios Koutsofios",
+     "target": "Stephen North",
+     "shared": [
+      "DOT"
+     ]
+    },
+    {
+     "source": "Emden R. Gansner",
+     "target": "Stephen North",
+     "shared": [
+      "DOT"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 85,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Joe Armstrong",
+     "languages": [
+      "Erlang"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Mike Williams",
+     "languages": [
+      "Erlang"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Robert Virding",
+     "languages": [
+      "Erlang",
+      "LFE",
+      "Sophia"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Joe Armstrong",
+     "target": "Robert Virding",
+     "shared": [
+      "Erlang"
+     ]
+    },
+    {
+     "source": "Joe Armstrong",
+     "target": "Mike Williams",
+     "shared": [
+      "Erlang"
+     ]
+    },
+    {
+     "source": "Mike Williams",
+     "target": "Robert Virding",
+     "shared": [
+      "Erlang"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 86,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "C. Hadlai Hull",
+     "languages": [
+      "SPSS"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Dale H. Bent",
+     "languages": [
+      "SPSS"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Norman H. Nie",
+     "languages": [
+      "SPSS"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "C. Hadlai Hull",
+     "target": "Norman H. Nie",
+     "shared": [
+      "SPSS"
+     ]
+    },
+    {
+     "source": "C. Hadlai Hull",
+     "target": "Dale H. Bent",
+     "shared": [
+      "SPSS"
+     ]
+    },
+    {
+     "source": "Dale H. Bent",
+     "target": "Norman H. Nie",
+     "shared": [
+      "SPSS"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 87,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Dr. Martin C. Carlisle",
+     "languages": [
+      "A#"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Lt Col Ricky Sward",
+     "languages": [
+      "A#"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Maj Jeff Humphries",
+     "languages": [
+      "A#"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Dr. Martin C. Carlisle",
+     "target": "Lt Col Ricky Sward",
+     "shared": [
+      "A#"
+     ]
+    },
+    {
+     "source": "Dr. Martin C. Carlisle",
+     "target": "Maj Jeff Humphries",
+     "shared": [
+      "A#"
+     ]
+    },
+    {
+     "source": "Lt Col Ricky Sward",
+     "target": "Maj Jeff Humphries",
+     "shared": [
+      "A#"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 88,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Benjamin Zorn",
+     "languages": [
+      "VEX"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Richard Hall",
+     "languages": [
+      "VEX"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Wayne Citrin",
+     "languages": [
+      "VEX"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Benjamin Zorn",
+     "target": "Wayne Citrin",
+     "shared": [
+      "VEX"
+     ]
+    },
+    {
+     "source": "Benjamin Zorn",
+     "target": "Richard Hall",
+     "shared": [
+      "VEX"
+     ]
+    },
+    {
+     "source": "Richard Hall",
+     "target": "Wayne Citrin",
+     "shared": [
+      "VEX"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 89,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Charles Simonyi",
+     "languages": [
+      "RTF"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "David Luebbert",
+     "languages": [
+      "RTF"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Richard Brodie",
+     "languages": [
+      "RTF"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Charles Simonyi",
+     "target": "Richard Brodie",
+     "shared": [
+      "RTF"
+     ]
+    },
+    {
+     "source": "Charles Simonyi",
+     "target": "David Luebbert",
+     "shared": [
+      "RTF"
+     ]
+    },
+    {
+     "source": "David Luebbert",
+     "target": "Richard Brodie",
+     "shared": [
+      "RTF"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 90,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Dave Clarke",
+     "languages": [
+      "Encore"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Elias Castegren",
+     "languages": [
+      "Encore"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Stephan Brandauer",
+     "languages": [
+      "Encore"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Dave Clarke",
+     "target": "Stephan Brandauer",
+     "shared": [
+      "Encore"
+     ]
+    },
+    {
+     "source": "Dave Clarke",
+     "target": "Elias Castegren",
+     "shared": [
+      "Encore"
+     ]
+    },
+    {
+     "source": "Elias Castegren",
+     "target": "Stephan Brandauer",
+     "shared": [
+      "Encore"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 91,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Ary Borenszweig",
+     "languages": [
+      "Crystal"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Brian Cardiff",
+     "languages": [
+      "Crystal"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Juan Wajnerman",
+     "languages": [
+      "Crystal"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Ary Borenszweig",
+     "target": "Juan Wajnerman",
+     "shared": [
+      "Crystal"
+     ]
+    },
+    {
+     "source": "Ary Borenszweig",
+     "target": "Brian Cardiff",
+     "shared": [
+      "Crystal"
+     ]
+    },
+    {
+     "source": "Brian Cardiff",
+     "target": "Juan Wajnerman",
+     "shared": [
+      "Crystal"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 92,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "BenoIt Derot",
+     "languages": [
+      "N"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Catherine Moulinoux",
+     "languages": [
+      "N"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Gael de La Croix Vaubois",
+     "languages": [
+      "N"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "BenoIt Derot",
+     "target": "Gael de La Croix Vaubois",
+     "shared": [
+      "N"
+     ]
+    },
+    {
+     "source": "BenoIt Derot",
+     "target": "Catherine Moulinoux",
+     "shared": [
+      "N"
+     ]
+    },
+    {
+     "source": "Catherine Moulinoux",
+     "target": "Gael de La Croix Vaubois",
+     "shared": [
+      "N"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 93,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "David Donofrio",
+     "languages": [
+      "StoneCutter"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Frank Conlon",
+     "languages": [
+      "StoneCutter"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "John D. Leidel",
+     "languages": [
+      "StoneCutter"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "David Donofrio",
+     "target": "John D. Leidel",
+     "shared": [
+      "StoneCutter"
+     ]
+    },
+    {
+     "source": "David Donofrio",
+     "target": "Frank Conlon",
+     "shared": [
+      "StoneCutter"
+     ]
+    },
+    {
+     "source": "Frank Conlon",
+     "target": "John D. Leidel",
+     "shared": [
+      "StoneCutter"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 94,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Aurelio Jargas",
+     "languages": [
+      "Txt2tags"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Florent Gallaire",
+     "languages": [
+      "Txt2tags"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Jendrik Seipp",
+     "languages": [
+      "Txt2tags"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Aurelio Jargas",
+     "target": "Florent Gallaire",
+     "shared": [
+      "Txt2tags"
+     ]
+    },
+    {
+     "source": "Aurelio Jargas",
+     "target": "Jendrik Seipp",
+     "shared": [
+      "Txt2tags"
+     ]
+    },
+    {
+     "source": "Florent Gallaire",
+     "target": "Jendrik Seipp",
+     "shared": [
+      "Txt2tags"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 95,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Alexandre Plateau",
+     "languages": [
+      "ArkScript"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Natendrtfm",
+     "languages": [
+      "ArkScript"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Pierre Pharel",
+     "languages": [
+      "ArkScript"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Alexandre Plateau",
+     "target": "Pierre Pharel",
+     "shared": [
+      "ArkScript"
+     ]
+    },
+    {
+     "source": "Alexandre Plateau",
+     "target": "Natendrtfm",
+     "shared": [
+      "ArkScript"
+     ]
+    },
+    {
+     "source": "Natendrtfm",
+     "target": "Pierre Pharel",
+     "shared": [
+      "ArkScript"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 96,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Erik M. Bray",
+     "languages": [
+      "ASDF"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Michael Droettboom",
+     "languages": [
+      "ASDF"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Perry Greenfield",
+     "languages": [
+      "ASDF"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Erik M. Bray",
+     "target": "Perry Greenfield",
+     "shared": [
+      "ASDF"
+     ]
+    },
+    {
+     "source": "Erik M. Bray",
+     "target": "Michael Droettboom",
+     "shared": [
+      "ASDF"
+     ]
+    },
+    {
+     "source": "Michael Droettboom",
+     "target": "Perry Greenfield",
+     "shared": [
+      "ASDF"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 97,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Alok Menghrajani",
+     "languages": [
+      "Hack"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Drew Paroski",
+     "languages": [
+      "Hack"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Julien Verlaguet",
+     "languages": [
+      "Hack",
+      "LinearML"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Alok Menghrajani",
+     "target": "Julien Verlaguet",
+     "shared": [
+      "Hack"
+     ]
+    },
+    {
+     "source": "Alok Menghrajani",
+     "target": "Drew Paroski",
+     "shared": [
+      "Hack"
+     ]
+    },
+    {
+     "source": "Drew Paroski",
+     "target": "Julien Verlaguet",
+     "shared": [
+      "Hack"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 98,
+   "size": 3,
+   "nodes": [
+    {
+     "id": "Diego Marcos",
+     "languages": [
+      "A-Frame"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Don McCurdy",
+     "languages": [
+      "A-Frame"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Kevin Ngo",
+     "languages": [
+      "A-Frame"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Diego Marcos",
+     "target": "Don McCurdy",
+     "shared": [
+      "A-Frame"
+     ]
+    },
+    {
+     "source": "Diego Marcos",
+     "target": "Kevin Ngo",
+     "shared": [
+      "A-Frame"
+     ]
+    },
+    {
+     "source": "Don McCurdy",
+     "target": "Kevin Ngo",
+     "shared": [
+      "A-Frame"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 99,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Alex Beregszaszi",
+     "languages": [
+      "Solidity"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Christian Reitwiessner",
+     "languages": [
+      "Solidity"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Alex Beregszaszi",
+     "target": "Christian Reitwiessner",
+     "shared": [
+      "Solidity"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 100,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "David R. Fuchs",
+     "languages": [
+      "Device independent file format"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Donald Knuth",
+     "languages": [
+      "CWEB",
+      "Device independent file format",
+      "Tex",
+      "Up-arrow notation"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "David R. Fuchs",
+     "target": "Donald Knuth",
+     "shared": [
+      "Device independent file format"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 101,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Benjamin C. Pierce",
+     "languages": [
+      "xduce"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Haruo Hosoya",
+     "languages": [
+      "xduce"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Benjamin C. Pierce",
+     "target": "Haruo Hosoya",
+     "shared": [
+      "xduce"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 102,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Dwayne Richard Hipp",
+     "languages": [
+      "Fossil",
+      "Lemon",
+      "Pikchr",
+      "SQLite"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Zhicheng Wei",
+     "languages": [
+      "Lemon"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Dwayne Richard Hipp",
+     "target": "Zhicheng Wei",
+     "shared": [
+      "Lemon"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 103,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Albert Gräf",
+     "languages": [
+      "Pure",
+      "Q"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Arthur Whitney",
+     "languages": [
+      "A+",
+      "K",
+      "Q"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Albert Gräf",
+     "target": "Arthur Whitney",
+     "shared": [
+      "Q"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 104,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Anton Rapetov",
+     "languages": [
+      "JS++"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Roger Poon",
+     "languages": [
+      "JS++"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Anton Rapetov",
+     "target": "Roger Poon",
+     "shared": [
+      "JS++"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 105,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Franklin F. Kuo",
+     "languages": [
+      "ALOHAnet"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Norman Abramson",
+     "languages": [
+      "ALOHAnet"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Franklin F. Kuo",
+     "target": "Norman Abramson",
+     "shared": [
+      "ALOHAnet"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 106,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Holger H. Hoos",
+     "languages": [
+      "GUIDO music notation"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Keith Hamel",
+     "languages": [
+      "GUIDO music notation"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Holger H. Hoos",
+     "target": "Keith Hamel",
+     "shared": [
+      "GUIDO music notation"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 107,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Ben Lerner",
+     "languages": [
+      "Pyret"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Joe Gibbs Politz",
+     "languages": [
+      "Pyret",
+      "pyret"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Ben Lerner",
+     "target": "Joe Gibbs Politz",
+     "shared": [
+      "Pyret"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 108,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Dirk Vermeir",
+     "languages": [
+      "OOPS",
+      "OOPS+"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Els Laenens",
+     "languages": [
+      "OOPS",
+      "OOPS+"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Dirk Vermeir",
+     "target": "Els Laenens",
+     "shared": [
+      "OOPS",
+      "OOPS+"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 109,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Blaise W. Liffick",
+     "languages": [
+      "BridgeTalk"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Jeffrey G. Bonar",
+     "languages": [
+      "BridgeTalk"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Blaise W. Liffick",
+     "target": "Jeffrey G. Bonar",
+     "shared": [
+      "BridgeTalk"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 110,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Bobby Bingham",
+     "languages": [
+      "FFmpeg"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Fabrice Bellard",
+     "languages": [
+      "FFmpeg",
+      "QuickJS",
+      "Tiny C Compiler"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Bobby Bingham",
+     "target": "Fabrice Bellard",
+     "shared": [
+      "FFmpeg"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 111,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Jonathan Fruhman",
+     "languages": [
+      "Picat"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Neng-Fa Zhou",
+     "languages": [
+      "Picat"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Jonathan Fruhman",
+     "target": "Neng-Fa Zhou",
+     "shared": [
+      "Picat"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 112,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Kenneth E. Iverson",
+     "languages": [
+      "APL",
+      "J"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Roger Hui",
+     "languages": [
+      "J"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Kenneth E. Iverson",
+     "target": "Roger Hui",
+     "shared": [
+      "J"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 113,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Eyal Lotem",
+     "languages": [
+      "Lamdu",
+      "lamdu-editor"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Yair Chuchem",
+     "languages": [
+      "Lamdu",
+      "lamdu-editor"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Eyal Lotem",
+     "target": "Yair Chuchem",
+     "shared": [
+      "Lamdu",
+      "lamdu-editor"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 114,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Oded Shmueli",
+     "languages": [
+      "SoQL"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Royi Ronen",
+     "languages": [
+      "SoQL"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Oded Shmueli",
+     "target": "Royi Ronen",
+     "shared": [
+      "SoQL"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 115,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Emina Torlak",
+     "languages": [
+      "rosette-lang"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Rastislav Bodik",
+     "languages": [
+      "rosette-lang"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Emina Torlak",
+     "target": "Rastislav Bodik",
+     "shared": [
+      "rosette-lang"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 116,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Charles A. Grant",
+     "languages": [
+      "NorthStar BASIC"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Mark Greenberg",
+     "languages": [
+      "NorthStar BASIC"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Charles A. Grant",
+     "target": "Mark Greenberg",
+     "shared": [
+      "NorthStar BASIC"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 117,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Ron Morrison",
+     "languages": [
+      "S-algol"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Tony Davie",
+     "languages": [
+      "S-algol"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Ron Morrison",
+     "target": "Tony Davie",
+     "shared": [
+      "S-algol"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 118,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Paul Graham",
+     "languages": [
+      "Arc",
+      "Bel"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Robert Morris",
+     "languages": [
+      "Arc"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Paul Graham",
+     "target": "Robert Morris",
+     "shared": [
+      "Arc"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 119,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "M. E. Maron",
+     "languages": [
+      "Relational Data File"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Roger Levien",
+     "languages": [
+      "Relational Data File"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "M. E. Maron",
+     "target": "Roger Levien",
+     "shared": [
+      "Relational Data File"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 120,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Edward A. Ashcroft",
+     "languages": [
+      "LUCID"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "William W. Wadge",
+     "languages": [
+      "LUCID"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Edward A. Ashcroft",
+     "target": "William W. Wadge",
+     "shared": [
+      "LUCID"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 121,
+   "size": 2,
+   "nodes": [
+    {
+     "id": "Paul Walsh",
+     "languages": [
+      "Data Package"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Rufus Pollock",
+     "languages": [
+      "Data Package"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Paul Walsh",
+     "target": "Rufus Pollock",
+     "shared": [
+      "Data Package"
+     ]
+    }
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "a": "Margo Seltzer",
+   "b": "Michael Cahill",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['Keith Bostic'] (jaccard 1.00)"
+  },
+  {
+   "a": "Phil Karn",
+   "b": "Phil Lapsley",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['Brian Kantor'] (jaccard 1.00)"
+  }
+ ]
+}

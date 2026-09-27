@@ -1,0 +1,130 @@
+{
+  "name_merges": {
+    "John George Kemeny": "John G. Kemeny",
+    "Daniel Weinreb": "Dan Weinreb",
+    "Dave Moon": "David A. Moon",
+    "Mary Fernandez": "Mary Fernández",
+    "Leon Bottou": "Léon Bottou",
+    "Yann Le Cun": "Yann LeCun",
+    "John Cowan": "John W. Cowan"
+  },
+  "merges_applied": [
+    {
+      "variant": "John George Kemeny",
+      "canonical": "John G. Kemeny"
+    },
+    {
+      "variant": "Daniel Weinreb",
+      "canonical": "Dan Weinreb"
+    },
+    {
+      "variant": "Mary Fernandez",
+      "canonical": "Mary Fernández"
+    }
+  ],
+  "n_merges_applied": 3,
+  "structure": {
+    "multi_author_languages": 176,
+    "max_team_size": 13,
+    "team_size_histogram": {
+      "2": 102,
+      "3": 37,
+      "4": 15,
+      "5": 7,
+      "6": 8,
+      "7": 2,
+      "8": 3,
+      "10": 1,
+      "13": 1
+    },
+    "pair_instances": 742,
+    "unique_edges": 712,
+    "pairs_sharing_multiple_languages": 27,
+    "multi_language_pair_histogram": {
+      "2": 24,
+      "3": 3
+    },
+    "creators_total": 1312,
+    "creators_in_one_language": 1163,
+    "creators_in_one_language_pct": 88.6
+  },
+  "component_structure": {
+    "single_language_components": 106,
+    "single_language_pct": 71.6,
+    "umbrella_components": 30,
+    "umbrella_pct": 20.3,
+    "partial_overlap_components": 12,
+    "partial_overlap_pct": 8.1
+  },
+  "null_models": {
+    "observed_largest_component": 16,
+    "erdos_renyi": {
+      "giant_component": 444,
+      "giant_pct_of_connected": 94.1
+    }
+  },
+  "before": {
+    "graph": {
+      "creators_total": 1315,
+      "creators_isolated": 840,
+      "creators_isolated_pct": 63.9,
+      "creators_connected": 475,
+      "edges": 715,
+      "connected_components": 148,
+      "complete_components": 135,
+      "complete_components_pct": 91.2,
+      "non_complete_components": 13,
+      "density_pct": 0.64,
+      "largest_component": 16,
+      "largest_component_pct": 3.4,
+      "total_components_with_isolated": 988,
+      "clique_size_histogram": {
+        "2": 83,
+        "3": 26,
+        "4": 10,
+        "5": 7,
+        "6": 5,
+        "7": 1,
+        "8": 2,
+        "10": 1
+      }
+    },
+    "languages": {
+      "languages_with_creators": 1182,
+      "single_author_languages": 1006,
+      "single_author_pct": 85.1
+    }
+  },
+  "after": {
+    "graph": {
+      "creators_total": 1312,
+      "creators_isolated": 840,
+      "creators_isolated_pct": 64.0,
+      "creators_connected": 472,
+      "edges": 712,
+      "connected_components": 148,
+      "complete_components": 136,
+      "complete_components_pct": 91.9,
+      "non_complete_components": 12,
+      "density_pct": 0.64,
+      "largest_component": 16,
+      "largest_component_pct": 3.4,
+      "total_components_with_isolated": 988,
+      "clique_size_histogram": {
+        "2": 84,
+        "3": 26,
+        "4": 10,
+        "5": 7,
+        "6": 5,
+        "7": 1,
+        "8": 2,
+        "10": 1
+      }
+    },
+    "languages": {
+      "languages_with_creators": 1182,
+      "single_author_languages": 1006,
+      "single_author_pct": 85.1
+    }
+  }
+}

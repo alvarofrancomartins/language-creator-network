@@ -1,0 +1,1060 @@
+{
+ "batch": "b3",
+ "components": [
+  {
+   "rank": 15,
+   "size": 6,
+   "nodes": [
+    {
+     "id": "C. M. Sperberg-McQueen",
+     "languages": [
+      "XML"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Eve Maler",
+     "languages": [
+      "XML"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "François Yergeau",
+     "languages": [
+      "XML"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Jean Paoli",
+     "languages": [
+      "XML"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "John W. Cowan",
+     "languages": [
+      "Queue",
+      "XML"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Tim Bray",
+     "languages": [
+      "XML",
+      "json->url"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "C. M. Sperberg-McQueen",
+     "target": "Tim Bray",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "C. M. Sperberg-McQueen",
+     "target": "Jean Paoli",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "C. M. Sperberg-McQueen",
+     "target": "Eve Maler",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "C. M. Sperberg-McQueen",
+     "target": "François Yergeau",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "C. M. Sperberg-McQueen",
+     "target": "John W. Cowan",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "Eve Maler",
+     "target": "Tim Bray",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "Eve Maler",
+     "target": "Jean Paoli",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "Eve Maler",
+     "target": "François Yergeau",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "Eve Maler",
+     "target": "John W. Cowan",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "François Yergeau",
+     "target": "Tim Bray",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "François Yergeau",
+     "target": "Jean Paoli",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "François Yergeau",
+     "target": "John W. Cowan",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "Jean Paoli",
+     "target": "Tim Bray",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "Jean Paoli",
+     "target": "John W. Cowan",
+     "shared": [
+      "XML"
+     ]
+    },
+    {
+     "source": "John W. Cowan",
+     "target": "Tim Bray",
+     "shared": [
+      "XML"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 16,
+   "size": 6,
+   "nodes": [
+    {
+     "id": "Frank Leymann",
+     "languages": [
+      "Ballerina"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Hasitha Aravinda",
+     "languages": [
+      "Ballerina"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "James Clark",
+     "languages": [
+      "Ballerina",
+      "Trex"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Sameera Jayasoma",
+     "languages": [
+      "Ballerina"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Sanjiva Weerawarana",
+     "languages": [
+      "Ballerina"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Srinath Perera",
+     "languages": [
+      "Ballerina"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "Frank Leymann",
+     "target": "Sanjiva Weerawarana",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Frank Leymann",
+     "target": "James Clark",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Frank Leymann",
+     "target": "Sameera Jayasoma",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Frank Leymann",
+     "target": "Hasitha Aravinda",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Frank Leymann",
+     "target": "Srinath Perera",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Hasitha Aravinda",
+     "target": "Sanjiva Weerawarana",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Hasitha Aravinda",
+     "target": "James Clark",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Hasitha Aravinda",
+     "target": "Sameera Jayasoma",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Hasitha Aravinda",
+     "target": "Srinath Perera",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "James Clark",
+     "target": "Sanjiva Weerawarana",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "James Clark",
+     "target": "Sameera Jayasoma",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "James Clark",
+     "target": "Srinath Perera",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Sameera Jayasoma",
+     "target": "Sanjiva Weerawarana",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Sameera Jayasoma",
+     "target": "Srinath Perera",
+     "shared": [
+      "Ballerina"
+     ]
+    },
+    {
+     "source": "Sanjiva Weerawarana",
+     "target": "Srinath Perera",
+     "shared": [
+      "Ballerina"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 17,
+   "size": 6,
+   "nodes": [
+    {
+     "id": "Ernesto Damiani",
+     "languages": [
+      "XML-GL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Letizia Tanca",
+     "languages": [
+      "XML-GL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Piero Fraternali",
+     "languages": [
+      "XML-GL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Sara Comai",
+     "languages": [
+      "XML-GL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Stefano Ceri",
+     "languages": [
+      "XML-GL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Stefano Paraboschi",
+     "languages": [
+      "XML-GL"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "Ernesto Damiani",
+     "target": "Stefano Ceri",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Ernesto Damiani",
+     "target": "Sara Comai",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Ernesto Damiani",
+     "target": "Piero Fraternali",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Ernesto Damiani",
+     "target": "Stefano Paraboschi",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Ernesto Damiani",
+     "target": "Letizia Tanca",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Letizia Tanca",
+     "target": "Stefano Ceri",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Letizia Tanca",
+     "target": "Sara Comai",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Letizia Tanca",
+     "target": "Piero Fraternali",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Letizia Tanca",
+     "target": "Stefano Paraboschi",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Piero Fraternali",
+     "target": "Stefano Ceri",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Piero Fraternali",
+     "target": "Sara Comai",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Piero Fraternali",
+     "target": "Stefano Paraboschi",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Sara Comai",
+     "target": "Stefano Ceri",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Sara Comai",
+     "target": "Stefano Paraboschi",
+     "shared": [
+      "XML-GL"
+     ]
+    },
+    {
+     "source": "Stefano Ceri",
+     "target": "Stefano Paraboschi",
+     "shared": [
+      "XML-GL"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 18,
+   "size": 6,
+   "nodes": [
+    {
+     "id": "Kathryn E. Gray",
+     "languages": [
+      "xt3d"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Matthew Flatt",
+     "languages": [
+      "Racket",
+      "Rhombus",
+      "Shrubbery Notation",
+      "Slideshow",
+      "Zuo",
+      "scribble"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "Matthias Felleisen",
+     "languages": [
+      "Racket"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "Paul T. Graunke",
+     "languages": [
+      "xt3d"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Robert Bruce Findler",
+     "languages": [
+      "Racket",
+      "Slideshow"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "Shriram Krishnamurthi",
+     "languages": [
+      "Racket",
+      "xt3d"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "Kathryn E. Gray",
+     "target": "Shriram Krishnamurthi",
+     "shared": [
+      "xt3d"
+     ]
+    },
+    {
+     "source": "Kathryn E. Gray",
+     "target": "Paul T. Graunke",
+     "shared": [
+      "xt3d"
+     ]
+    },
+    {
+     "source": "Matthew Flatt",
+     "target": "Robert Bruce Findler",
+     "shared": [
+      "Racket",
+      "Slideshow"
+     ]
+    },
+    {
+     "source": "Matthew Flatt",
+     "target": "Matthias Felleisen",
+     "shared": [
+      "Racket"
+     ]
+    },
+    {
+     "source": "Matthew Flatt",
+     "target": "Shriram Krishnamurthi",
+     "shared": [
+      "Racket"
+     ]
+    },
+    {
+     "source": "Matthias Felleisen",
+     "target": "Robert Bruce Findler",
+     "shared": [
+      "Racket"
+     ]
+    },
+    {
+     "source": "Matthias Felleisen",
+     "target": "Shriram Krishnamurthi",
+     "shared": [
+      "Racket"
+     ]
+    },
+    {
+     "source": "Paul T. Graunke",
+     "target": "Shriram Krishnamurthi",
+     "shared": [
+      "xt3d"
+     ]
+    },
+    {
+     "source": "Robert Bruce Findler",
+     "target": "Shriram Krishnamurthi",
+     "shared": [
+      "Racket"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 19,
+   "size": 6,
+   "nodes": [
+    {
+     "id": "Barry Trager",
+     "languages": [
+      "Aldor"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "James Davenport",
+     "languages": [
+      "Aldor"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Richard Dimick Jenks",
+     "languages": [
+      "Aldor"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Robert Sutor",
+     "languages": [
+      "Aldor"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Scott Morrison",
+     "languages": [
+      "Aldor"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Stephen Watt",
+     "languages": [
+      "Aldor"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "Barry Trager",
+     "target": "Richard Dimick Jenks",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Barry Trager",
+     "target": "Stephen Watt",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Barry Trager",
+     "target": "James Davenport",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Barry Trager",
+     "target": "Robert Sutor",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Barry Trager",
+     "target": "Scott Morrison",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "James Davenport",
+     "target": "Richard Dimick Jenks",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "James Davenport",
+     "target": "Stephen Watt",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "James Davenport",
+     "target": "Robert Sutor",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "James Davenport",
+     "target": "Scott Morrison",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Richard Dimick Jenks",
+     "target": "Stephen Watt",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Richard Dimick Jenks",
+     "target": "Robert Sutor",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Richard Dimick Jenks",
+     "target": "Scott Morrison",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Robert Sutor",
+     "target": "Stephen Watt",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Robert Sutor",
+     "target": "Scott Morrison",
+     "shared": [
+      "Aldor"
+     ]
+    },
+    {
+     "source": "Scott Morrison",
+     "target": "Stephen Watt",
+     "shared": [
+      "Aldor"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 20,
+   "size": 6,
+   "nodes": [
+    {
+     "id": "Léon Bottou",
+     "languages": [
+      "DjVu"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Patrice Simard",
+     "languages": [
+      "DjVu"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Patrick Haffner",
+     "languages": [
+      "DjVu"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Paul G. Howard",
+     "languages": [
+      "DjVu"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Yann LeCun",
+     "languages": [
+      "DjVu"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Yoshua Bengio",
+     "languages": [
+      "DjVu"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "Léon Bottou",
+     "target": "Yann LeCun",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Léon Bottou",
+     "target": "Patrick Haffner",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Léon Bottou",
+     "target": "Paul G. Howard",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Léon Bottou",
+     "target": "Patrice Simard",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Léon Bottou",
+     "target": "Yoshua Bengio",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Patrice Simard",
+     "target": "Yann LeCun",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Patrice Simard",
+     "target": "Patrick Haffner",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Patrice Simard",
+     "target": "Paul G. Howard",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Patrice Simard",
+     "target": "Yoshua Bengio",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Patrick Haffner",
+     "target": "Yann LeCun",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Patrick Haffner",
+     "target": "Paul G. Howard",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Patrick Haffner",
+     "target": "Yoshua Bengio",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Paul G. Howard",
+     "target": "Yann LeCun",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Paul G. Howard",
+     "target": "Yoshua Bengio",
+     "shared": [
+      "DjVu"
+     ]
+    },
+    {
+     "source": "Yann LeCun",
+     "target": "Yoshua Bengio",
+     "shared": [
+      "DjVu"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 21,
+   "size": 6,
+   "nodes": [
+    {
+     "id": "David Newman",
+     "languages": [
+      "SQRL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Josh Yudaken",
+     "languages": [
+      "SQRL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Julian Tempelsman",
+     "languages": [
+      "SQRL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Paul Mou",
+     "languages": [
+      "SQRL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Pete Hunt",
+     "languages": [
+      "SQRL"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Yunjing Xu",
+     "languages": [
+      "SQRL"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "David Newman",
+     "target": "Josh Yudaken",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "David Newman",
+     "target": "Pete Hunt",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "David Newman",
+     "target": "Julian Tempelsman",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "David Newman",
+     "target": "Paul Mou",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "David Newman",
+     "target": "Yunjing Xu",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Josh Yudaken",
+     "target": "Pete Hunt",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Josh Yudaken",
+     "target": "Julian Tempelsman",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Josh Yudaken",
+     "target": "Paul Mou",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Josh Yudaken",
+     "target": "Yunjing Xu",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Julian Tempelsman",
+     "target": "Pete Hunt",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Julian Tempelsman",
+     "target": "Paul Mou",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Julian Tempelsman",
+     "target": "Yunjing Xu",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Paul Mou",
+     "target": "Pete Hunt",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Paul Mou",
+     "target": "Yunjing Xu",
+     "shared": [
+      "SQRL"
+     ]
+    },
+    {
+     "source": "Pete Hunt",
+     "target": "Yunjing Xu",
+     "shared": [
+      "SQRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "leads": []
+}

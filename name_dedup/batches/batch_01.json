@@ -1,0 +1,2602 @@
+{
+ "batch": "b1",
+ "components": [
+  {
+   "rank": 1,
+   "size": 17,
+   "nodes": [
+    {
+     "id": "Adriaan van Wijngaarden",
+     "languages": [
+      "ALGOL 60",
+      "ALGOL 68"
+     ],
+     "deg": 15
+    },
+    {
+     "id": "Alan Perlis",
+     "languages": [
+      "ALGOL 60",
+      "IT"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Barry J. Mailloux",
+     "languages": [
+      "ALGOL 68"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "Bernard Vauquois",
+     "languages": [
+      "ALGOL 60"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Charles Katz",
+     "languages": [
+      "ALGOL 60"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Cornelis H. A. Koster",
+     "languages": [
+      "ALGOL 68",
+      "Compiler Description Language"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "Friedrich L. Bauer",
+     "languages": [
+      "ALGOL 60"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Heinz Rutishauser",
+     "languages": [
+      "ALGOL 60",
+      "Superplan"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "John Backus",
+     "languages": [
+      "ALGOL 60",
+      "BNF",
+      "FL",
+      "FP",
+      "Fortran",
+      "Red",
+      "Speedcoding"
+     ],
+     "deg": 13
+    },
+    {
+     "id": "John E. L. Peck",
+     "languages": [
+      "ALGOL 68"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "John McCarthy",
+     "languages": [
+      "ALGOL 60",
+      "Advice Taker",
+      "Elephant 2000",
+      "Lisp"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Joseph Henry Wegstein",
+     "languages": [
+      "ALGOL 60"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Julien Green",
+     "languages": [
+      "ALGOL 60"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Klaus Samelson",
+     "languages": [
+      "ALGOL 60"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Michael Woodger",
+     "languages": [
+      "ALGOL 60"
+     ],
+     "deg": 12
+    },
+    {
+     "id": "Nenad Rakocevic",
+     "languages": [
+      "Red",
+      "rsharp"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Peter Naur",
+     "languages": [
+      "ALGOL 60",
+      "BNF"
+     ],
+     "deg": 12
+    }
+   ],
+   "links": [
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Barry J. Mailloux",
+     "shared": [
+      "ALGOL 68"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "John E. L. Peck",
+     "shared": [
+      "ALGOL 68"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Cornelis H. A. Koster",
+     "shared": [
+      "ALGOL 68"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "John Backus",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Friedrich L. Bauer",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Charles Katz",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "John McCarthy",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Alan Perlis",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Heinz Rutishauser",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Bernard Vauquois",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Adriaan van Wijngaarden",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "John Backus",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Friedrich L. Bauer",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Charles Katz",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "John McCarthy",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Heinz Rutishauser",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Bernard Vauquois",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Alan Perlis",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Barry J. Mailloux",
+     "target": "John E. L. Peck",
+     "shared": [
+      "ALGOL 68"
+     ]
+    },
+    {
+     "source": "Barry J. Mailloux",
+     "target": "Cornelis H. A. Koster",
+     "shared": [
+      "ALGOL 68"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "John Backus",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Friedrich L. Bauer",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Charles Katz",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "John McCarthy",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Heinz Rutishauser",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Bernard Vauquois",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "John Backus",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "Friedrich L. Bauer",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "John McCarthy",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "Heinz Rutishauser",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Charles Katz",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Cornelis H. A. Koster",
+     "target": "John E. L. Peck",
+     "shared": [
+      "ALGOL 68"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "John Backus",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "John McCarthy",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "Heinz Rutishauser",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Friedrich L. Bauer",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Heinz Rutishauser",
+     "target": "John Backus",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Heinz Rutishauser",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Heinz Rutishauser",
+     "target": "John McCarthy",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Heinz Rutishauser",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Heinz Rutishauser",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Heinz Rutishauser",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Heinz Rutishauser",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John Backus",
+     "target": "Nenad Rakocevic",
+     "shared": [
+      "Red"
+     ]
+    },
+    {
+     "source": "John Backus",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John Backus",
+     "target": "John McCarthy",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John Backus",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60",
+      "BNF"
+     ]
+    },
+    {
+     "source": "John Backus",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John Backus",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John Backus",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John McCarthy",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John McCarthy",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John McCarthy",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John McCarthy",
+     "target": "Joseph Henry Wegstein",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "John McCarthy",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Joseph Henry Wegstein",
+     "target": "Julien Green",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Joseph Henry Wegstein",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Joseph Henry Wegstein",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Joseph Henry Wegstein",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Julien Green",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Julien Green",
+     "target": "Klaus Samelson",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Julien Green",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Klaus Samelson",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Klaus Samelson",
+     "target": "Michael Woodger",
+     "shared": [
+      "ALGOL 60"
+     ]
+    },
+    {
+     "source": "Michael Woodger",
+     "target": "Peter Naur",
+     "shared": [
+      "ALGOL 60"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "size": 13,
+   "nodes": [
+    {
+     "id": "B. W. Wade",
+     "languages": [
+      "SEQUEL 2"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Charles Goldfarb",
+     "languages": [
+      "GML"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Donald D. Chamberlin",
+     "languages": [
+      "SEQUEL 2",
+      "SQL",
+      "SQUARE"
+     ],
+     "deg": 10
+    },
+    {
+     "id": "Edward Mosher",
+     "languages": [
+      "GML"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "J. W. Mehl",
+     "languages": [
+      "SEQUEL 2"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "K. P. Eswaran",
+     "languages": [
+      "SEQUEL 2"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "M. M. Astrahan",
+     "languages": [
+      "SEQUEL 2"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Michael M. Hammer",
+     "languages": [
+      "SQUARE"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "P. P. Griffiths",
+     "languages": [
+      "SEQUEL 2"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "P. Reisner",
+     "languages": [
+      "SEQUEL 2"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Raymond F. Boyce",
+     "languages": [
+      "SQL",
+      "SQUARE"
+     ],
+     "deg": 3
+    },
+    {
+     "id": "Raymond Lorie",
+     "languages": [
+      "GML",
+      "SEQUEL 2"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "W. Frank King III",
+     "languages": [
+      "SQUARE"
+     ],
+     "deg": 3
+    }
+   ],
+   "links": [
+    {
+     "source": "B. W. Wade",
+     "target": "Donald D. Chamberlin",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "B. W. Wade",
+     "target": "M. M. Astrahan",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "B. W. Wade",
+     "target": "K. P. Eswaran",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "B. W. Wade",
+     "target": "P. P. Griffiths",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "B. W. Wade",
+     "target": "Raymond Lorie",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "B. W. Wade",
+     "target": "J. W. Mehl",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "B. W. Wade",
+     "target": "P. Reisner",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Charles Goldfarb",
+     "target": "Edward Mosher",
+     "shared": [
+      "GML"
+     ]
+    },
+    {
+     "source": "Charles Goldfarb",
+     "target": "Raymond Lorie",
+     "shared": [
+      "GML"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "M. M. Astrahan",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "K. P. Eswaran",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "P. P. Griffiths",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "Raymond Lorie",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "J. W. Mehl",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "P. Reisner",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "Raymond F. Boyce",
+     "shared": [
+      "SQL",
+      "SQUARE"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "W. Frank King III",
+     "shared": [
+      "SQUARE"
+     ]
+    },
+    {
+     "source": "Donald D. Chamberlin",
+     "target": "Michael M. Hammer",
+     "shared": [
+      "SQUARE"
+     ]
+    },
+    {
+     "source": "Edward Mosher",
+     "target": "Raymond Lorie",
+     "shared": [
+      "GML"
+     ]
+    },
+    {
+     "source": "J. W. Mehl",
+     "target": "M. M. Astrahan",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "J. W. Mehl",
+     "target": "K. P. Eswaran",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "J. W. Mehl",
+     "target": "P. P. Griffiths",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "J. W. Mehl",
+     "target": "Raymond Lorie",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "J. W. Mehl",
+     "target": "P. Reisner",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "K. P. Eswaran",
+     "target": "M. M. Astrahan",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "K. P. Eswaran",
+     "target": "P. P. Griffiths",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "K. P. Eswaran",
+     "target": "Raymond Lorie",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "K. P. Eswaran",
+     "target": "P. Reisner",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "M. M. Astrahan",
+     "target": "P. P. Griffiths",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "M. M. Astrahan",
+     "target": "Raymond Lorie",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "M. M. Astrahan",
+     "target": "P. Reisner",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Michael M. Hammer",
+     "target": "Raymond F. Boyce",
+     "shared": [
+      "SQUARE"
+     ]
+    },
+    {
+     "source": "Michael M. Hammer",
+     "target": "W. Frank King III",
+     "shared": [
+      "SQUARE"
+     ]
+    },
+    {
+     "source": "P. P. Griffiths",
+     "target": "Raymond Lorie",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "P. P. Griffiths",
+     "target": "P. Reisner",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "P. Reisner",
+     "target": "Raymond Lorie",
+     "shared": [
+      "SEQUEL 2"
+     ]
+    },
+    {
+     "source": "Raymond F. Boyce",
+     "target": "W. Frank King III",
+     "shared": [
+      "SQUARE"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "size": 12,
+   "nodes": [
+    {
+     "id": "Dan Weinreb",
+     "languages": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Daniel Weinreb",
+     "languages": [
+      "Lisp Machine Lisp"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Dave Moon",
+     "languages": [
+      "Emacs"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "David A. Moon",
+     "languages": [
+      "Common Lisp",
+      "Corman Common Lisp",
+      "Lisp Machine Lisp",
+      "Plot",
+      "lunar"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Gerald Jay Sussman",
+     "languages": [
+      "Scheme"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Guy Steele",
+     "languages": [
+      "Common Lisp",
+      "Corman Common Lisp",
+      "Emacs",
+      "Scheme"
+     ],
+     "deg": 8
+    },
+    {
+     "id": "John Sundell",
+     "languages": [
+      "Plot"
+     ],
+     "deg": 1
+    },
+    {
+     "id": "Kent Pitman",
+     "languages": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Richard P. Gabriel",
+     "languages": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Richard Stallman",
+     "languages": [
+      "Emacs Lisp",
+      "GCC",
+      "GNU Emacs",
+      "Lisp Machine Lisp"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Roger Corman",
+     "languages": [
+      "Corman Common Lisp"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Scott Fahlman",
+     "languages": [
+      "Common Lisp",
+      "Corman Common Lisp",
+      "Spice Lisp"
+     ],
+     "deg": 6
+    }
+   ],
+   "links": [
+    {
+     "source": "Dan Weinreb",
+     "target": "Scott Fahlman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Dan Weinreb",
+     "target": "Richard P. Gabriel",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Dan Weinreb",
+     "target": "David A. Moon",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Dan Weinreb",
+     "target": "Kent Pitman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Dan Weinreb",
+     "target": "Guy Steele",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Dan Weinreb",
+     "target": "Roger Corman",
+     "shared": [
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Daniel Weinreb",
+     "target": "David A. Moon",
+     "shared": [
+      "Lisp Machine Lisp"
+     ]
+    },
+    {
+     "source": "Daniel Weinreb",
+     "target": "Richard Stallman",
+     "shared": [
+      "Lisp Machine Lisp"
+     ]
+    },
+    {
+     "source": "Dave Moon",
+     "target": "Guy Steele",
+     "shared": [
+      "Emacs"
+     ]
+    },
+    {
+     "source": "David A. Moon",
+     "target": "John Sundell",
+     "shared": [
+      "Plot"
+     ]
+    },
+    {
+     "source": "David A. Moon",
+     "target": "Richard Stallman",
+     "shared": [
+      "Lisp Machine Lisp"
+     ]
+    },
+    {
+     "source": "David A. Moon",
+     "target": "Scott Fahlman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "David A. Moon",
+     "target": "Richard P. Gabriel",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "David A. Moon",
+     "target": "Kent Pitman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "David A. Moon",
+     "target": "Guy Steele",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "David A. Moon",
+     "target": "Roger Corman",
+     "shared": [
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Gerald Jay Sussman",
+     "target": "Guy Steele",
+     "shared": [
+      "Scheme"
+     ]
+    },
+    {
+     "source": "Guy Steele",
+     "target": "Scott Fahlman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Guy Steele",
+     "target": "Richard P. Gabriel",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Guy Steele",
+     "target": "Kent Pitman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Guy Steele",
+     "target": "Roger Corman",
+     "shared": [
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Kent Pitman",
+     "target": "Scott Fahlman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Kent Pitman",
+     "target": "Richard P. Gabriel",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Kent Pitman",
+     "target": "Roger Corman",
+     "shared": [
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Richard P. Gabriel",
+     "target": "Scott Fahlman",
+     "shared": [
+      "Common Lisp",
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Richard P. Gabriel",
+     "target": "Roger Corman",
+     "shared": [
+      "Corman Common Lisp"
+     ]
+    },
+    {
+     "source": "Roger Corman",
+     "target": "Scott Fahlman",
+     "shared": [
+      "Corman Common Lisp"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "size": 11,
+   "nodes": [
+    {
+     "id": "Alfred Aho",
+     "languages": [
+      "awk",
+      "mawk"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Brian Kernighan",
+     "languages": [
+      "AMPL",
+      "M4",
+      "PIC",
+      "Unix",
+      "awk"
+     ],
+     "deg": 8
+    },
+    {
+     "id": "David Gay",
+     "languages": [
+      "AMPL"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Dennis Ritchie",
+     "languages": [
+      "B",
+      "C",
+      "M4",
+      "Unix"
+     ],
+     "deg": 4
+    },
+    {
+     "id": "Douglas McIlroy",
+     "languages": [
+      "Unix"
+     ],
+     "deg": 4
+    },
+    {
+     "id": "Joe Ossanna",
+     "languages": [
+      "ROFF",
+      "Unix",
+      "nroff"
+     ],
+     "deg": 4
+    },
+    {
+     "id": "Ken Thompson",
+     "languages": [
+      "B",
+      "Go",
+      "ROFF",
+      "UTF-8",
+      "Unix",
+      "ed",
+      "grep"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Peter J. Weinberger",
+     "languages": [
+      "awk",
+      "mawk"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Rob Pike",
+     "languages": [
+      "Go",
+      "Limbo",
+      "Newsqueak",
+      "UTF-8",
+      "ivy"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Robert Fourer",
+     "languages": [
+      "AMPL"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Robert Griesemer",
+     "languages": [
+      "Go"
+     ],
+     "deg": 2
+    }
+   ],
+   "links": [
+    {
+     "source": "Alfred Aho",
+     "target": "Peter J. Weinberger",
+     "shared": [
+      "awk",
+      "mawk"
+     ]
+    },
+    {
+     "source": "Alfred Aho",
+     "target": "Brian Kernighan",
+     "shared": [
+      "awk"
+     ]
+    },
+    {
+     "source": "Brian Kernighan",
+     "target": "Peter J. Weinberger",
+     "shared": [
+      "awk"
+     ]
+    },
+    {
+     "source": "Brian Kernighan",
+     "target": "Dennis Ritchie",
+     "shared": [
+      "M4",
+      "Unix"
+     ]
+    },
+    {
+     "source": "Brian Kernighan",
+     "target": "Robert Fourer",
+     "shared": [
+      "AMPL"
+     ]
+    },
+    {
+     "source": "Brian Kernighan",
+     "target": "David Gay",
+     "shared": [
+      "AMPL"
+     ]
+    },
+    {
+     "source": "Brian Kernighan",
+     "target": "Ken Thompson",
+     "shared": [
+      "Unix"
+     ]
+    },
+    {
+     "source": "Brian Kernighan",
+     "target": "Douglas McIlroy",
+     "shared": [
+      "Unix"
+     ]
+    },
+    {
+     "source": "Brian Kernighan",
+     "target": "Joe Ossanna",
+     "shared": [
+      "Unix"
+     ]
+    },
+    {
+     "source": "David Gay",
+     "target": "Robert Fourer",
+     "shared": [
+      "AMPL"
+     ]
+    },
+    {
+     "source": "Dennis Ritchie",
+     "target": "Ken Thompson",
+     "shared": [
+      "B",
+      "Unix"
+     ]
+    },
+    {
+     "source": "Dennis Ritchie",
+     "target": "Douglas McIlroy",
+     "shared": [
+      "Unix"
+     ]
+    },
+    {
+     "source": "Dennis Ritchie",
+     "target": "Joe Ossanna",
+     "shared": [
+      "Unix"
+     ]
+    },
+    {
+     "source": "Douglas McIlroy",
+     "target": "Ken Thompson",
+     "shared": [
+      "Unix"
+     ]
+    },
+    {
+     "source": "Douglas McIlroy",
+     "target": "Joe Ossanna",
+     "shared": [
+      "Unix"
+     ]
+    },
+    {
+     "source": "Joe Ossanna",
+     "target": "Ken Thompson",
+     "shared": [
+      "ROFF",
+      "Unix"
+     ]
+    },
+    {
+     "source": "Ken Thompson",
+     "target": "Rob Pike",
+     "shared": [
+      "Go",
+      "UTF-8"
+     ]
+    },
+    {
+     "source": "Ken Thompson",
+     "target": "Robert Griesemer",
+     "shared": [
+      "Go"
+     ]
+    },
+    {
+     "source": "Rob Pike",
+     "target": "Robert Griesemer",
+     "shared": [
+      "Go"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "size": 10,
+   "nodes": [
+    {
+     "id": "Arti Gupta",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Aseem Rastogi",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Dmitry Malloy",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Haobin Ni",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Irina Spiridonova",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Juan Vazquez",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Michael Tang",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Nikhil Swamy",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Omar Cardona",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    },
+    {
+     "id": "Tahina Ramananandro",
+     "languages": [
+      "EverParse3D"
+     ],
+     "deg": 9
+    }
+   ],
+   "links": [
+    {
+     "source": "Arti Gupta",
+     "target": "Nikhil Swamy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Aseem Rastogi",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Irina Spiridonova",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Haobin Ni",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Dmitry Malloy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Juan Vazquez",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Michael Tang",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Arti Gupta",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Nikhil Swamy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Irina Spiridonova",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Haobin Ni",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Dmitry Malloy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Juan Vazquez",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Michael Tang",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Aseem Rastogi",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Dmitry Malloy",
+     "target": "Nikhil Swamy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Dmitry Malloy",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Dmitry Malloy",
+     "target": "Irina Spiridonova",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Dmitry Malloy",
+     "target": "Haobin Ni",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Dmitry Malloy",
+     "target": "Juan Vazquez",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Dmitry Malloy",
+     "target": "Michael Tang",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Dmitry Malloy",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Haobin Ni",
+     "target": "Nikhil Swamy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Haobin Ni",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Haobin Ni",
+     "target": "Irina Spiridonova",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Haobin Ni",
+     "target": "Juan Vazquez",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Haobin Ni",
+     "target": "Michael Tang",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Haobin Ni",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Irina Spiridonova",
+     "target": "Nikhil Swamy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Irina Spiridonova",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Irina Spiridonova",
+     "target": "Juan Vazquez",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Irina Spiridonova",
+     "target": "Michael Tang",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Irina Spiridonova",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Juan Vazquez",
+     "target": "Nikhil Swamy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Juan Vazquez",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Juan Vazquez",
+     "target": "Michael Tang",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Juan Vazquez",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Michael Tang",
+     "target": "Nikhil Swamy",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Michael Tang",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Michael Tang",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Nikhil Swamy",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Nikhil Swamy",
+     "target": "Omar Cardona",
+     "shared": [
+      "EverParse3D"
+     ]
+    },
+    {
+     "source": "Omar Cardona",
+     "target": "Tahina Ramananandro",
+     "shared": [
+      "EverParse3D"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "size": 8,
+   "nodes": [
+    {
+     "id": "Dor Ma’Ayan",
+     "languages": [
+      "Penrose"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Jenna Wise",
+     "languages": [
+      "Penrose"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Jonathan Aldrich",
+     "languages": [
+      "Penrose",
+      "Plaid"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Joshua Sunshine",
+     "languages": [
+      "Penrose"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Katherine Ye",
+     "languages": [
+      "Penrose"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Keenan Crane",
+     "languages": [
+      "Penrose"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Max Krieger",
+     "languages": [
+      "Penrose"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Wode Ni",
+     "languages": [
+      "Penrose"
+     ],
+     "deg": 7
+    }
+   ],
+   "links": [
+    {
+     "source": "Dor Ma’Ayan",
+     "target": "Katherine Ye",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Dor Ma’Ayan",
+     "target": "Wode Ni",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Dor Ma’Ayan",
+     "target": "Max Krieger",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Dor Ma’Ayan",
+     "target": "Jenna Wise",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Dor Ma’Ayan",
+     "target": "Jonathan Aldrich",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Dor Ma’Ayan",
+     "target": "Joshua Sunshine",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Dor Ma’Ayan",
+     "target": "Keenan Crane",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jenna Wise",
+     "target": "Katherine Ye",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jenna Wise",
+     "target": "Wode Ni",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jenna Wise",
+     "target": "Max Krieger",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jenna Wise",
+     "target": "Jonathan Aldrich",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jenna Wise",
+     "target": "Joshua Sunshine",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jenna Wise",
+     "target": "Keenan Crane",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jonathan Aldrich",
+     "target": "Katherine Ye",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jonathan Aldrich",
+     "target": "Wode Ni",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jonathan Aldrich",
+     "target": "Max Krieger",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jonathan Aldrich",
+     "target": "Joshua Sunshine",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Jonathan Aldrich",
+     "target": "Keenan Crane",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Joshua Sunshine",
+     "target": "Katherine Ye",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Joshua Sunshine",
+     "target": "Wode Ni",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Joshua Sunshine",
+     "target": "Max Krieger",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Joshua Sunshine",
+     "target": "Keenan Crane",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Katherine Ye",
+     "target": "Wode Ni",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Katherine Ye",
+     "target": "Max Krieger",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Katherine Ye",
+     "target": "Keenan Crane",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Keenan Crane",
+     "target": "Wode Ni",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Keenan Crane",
+     "target": "Max Krieger",
+     "shared": [
+      "Penrose"
+     ]
+    },
+    {
+     "source": "Max Krieger",
+     "target": "Wode Ni",
+     "shared": [
+      "Penrose"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "size": 8,
+   "nodes": [
+    {
+     "id": "Brian Chin",
+     "languages": [
+      "Yedalog"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Chris Olston",
+     "languages": [
+      "Yedalog"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Daniel von Dincklage",
+     "languages": [
+      "Yedalog"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Fernando Pereira",
+     "languages": [
+      "Yedalog"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Franz Och",
+     "languages": [
+      "Yedalog"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Mark S. Miller",
+     "languages": [
+      "E",
+      "Yedalog"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Peter Hawkins",
+     "languages": [
+      "Yedalog"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Vuk Ercegovac",
+     "languages": [
+      "Yedalog"
+     ],
+     "deg": 7
+    }
+   ],
+   "links": [
+    {
+     "source": "Brian Chin",
+     "target": "Daniel von Dincklage",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Brian Chin",
+     "target": "Vuk Ercegovac",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Brian Chin",
+     "target": "Peter Hawkins",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Brian Chin",
+     "target": "Mark S. Miller",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Brian Chin",
+     "target": "Franz Och",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Brian Chin",
+     "target": "Chris Olston",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Brian Chin",
+     "target": "Fernando Pereira",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Chris Olston",
+     "target": "Daniel von Dincklage",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Chris Olston",
+     "target": "Vuk Ercegovac",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Chris Olston",
+     "target": "Peter Hawkins",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Chris Olston",
+     "target": "Mark S. Miller",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Chris Olston",
+     "target": "Franz Och",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Chris Olston",
+     "target": "Fernando Pereira",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Daniel von Dincklage",
+     "target": "Vuk Ercegovac",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Daniel von Dincklage",
+     "target": "Peter Hawkins",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Daniel von Dincklage",
+     "target": "Mark S. Miller",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Daniel von Dincklage",
+     "target": "Franz Och",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Daniel von Dincklage",
+     "target": "Fernando Pereira",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Fernando Pereira",
+     "target": "Vuk Ercegovac",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Fernando Pereira",
+     "target": "Peter Hawkins",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Fernando Pereira",
+     "target": "Mark S. Miller",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Fernando Pereira",
+     "target": "Franz Och",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Franz Och",
+     "target": "Vuk Ercegovac",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Franz Och",
+     "target": "Peter Hawkins",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Franz Och",
+     "target": "Mark S. Miller",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Mark S. Miller",
+     "target": "Vuk Ercegovac",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Mark S. Miller",
+     "target": "Peter Hawkins",
+     "shared": [
+      "Yedalog"
+     ]
+    },
+    {
+     "source": "Peter Hawkins",
+     "target": "Vuk Ercegovac",
+     "shared": [
+      "Yedalog"
+     ]
+    }
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "a": "Dan Weinreb",
+   "b": "Daniel Weinreb",
+   "type": "FUZZY",
+   "why": "fuzzy similarity 0.88: 'dan weinreb' vs 'daniel weinreb'; share neighbor(s) ['David A. Moon']"
+  },
+  {
+   "a": "Daniel Weinreb",
+   "b": "John Sundell",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['David A. Moon'] (jaccard 0.50)"
+  },
+  {
+   "a": "Dave Moon",
+   "b": "Gerald Jay Sussman",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['Guy Steele'] (jaccard 1.00)"
+  },
+  {
+   "a": "John Sundell",
+   "b": "Richard Stallman",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['David A. Moon'] (jaccard 0.50)"
+  }
+ ]
+}

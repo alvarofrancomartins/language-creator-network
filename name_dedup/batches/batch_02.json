@@ -1,0 +1,1346 @@
+{
+ "batch": "b2",
+ "components": [
+  {
+   "rank": 8,
+   "size": 8,
+   "nodes": [
+    {
+     "id": "Bernat Romagosa",
+     "languages": [
+      "MicroBlocks"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Brian Silverman",
+     "languages": [
+      "Scratch"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Jens Mönig",
+     "languages": [
+      "MicroBlocks"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "John Maloney",
+     "languages": [
+      "MicroBlocks",
+      "Scratch"
+     ],
+     "deg": 7
+    },
+    {
+     "id": "Leo Burd",
+     "languages": [
+      "Scratch"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Mitchel Resnick",
+     "languages": [
+      "Scratch"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Natalie Rusk",
+     "languages": [
+      "Scratch"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Yasmin B. Kafai",
+     "languages": [
+      "Scratch"
+     ],
+     "deg": 5
+    }
+   ],
+   "links": [
+    {
+     "source": "Bernat Romagosa",
+     "target": "John Maloney",
+     "shared": [
+      "MicroBlocks"
+     ]
+    },
+    {
+     "source": "Bernat Romagosa",
+     "target": "Jens Mönig",
+     "shared": [
+      "MicroBlocks"
+     ]
+    },
+    {
+     "source": "Brian Silverman",
+     "target": "John Maloney",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Brian Silverman",
+     "target": "Leo Burd",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Brian Silverman",
+     "target": "Yasmin B. Kafai",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Brian Silverman",
+     "target": "Natalie Rusk",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Brian Silverman",
+     "target": "Mitchel Resnick",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Jens Mönig",
+     "target": "John Maloney",
+     "shared": [
+      "MicroBlocks"
+     ]
+    },
+    {
+     "source": "John Maloney",
+     "target": "Leo Burd",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "John Maloney",
+     "target": "Yasmin B. Kafai",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "John Maloney",
+     "target": "Natalie Rusk",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "John Maloney",
+     "target": "Mitchel Resnick",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Leo Burd",
+     "target": "Yasmin B. Kafai",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Leo Burd",
+     "target": "Natalie Rusk",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Leo Burd",
+     "target": "Mitchel Resnick",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Mitchel Resnick",
+     "target": "Yasmin B. Kafai",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Mitchel Resnick",
+     "target": "Natalie Rusk",
+     "shared": [
+      "Scratch"
+     ]
+    },
+    {
+     "source": "Natalie Rusk",
+     "target": "Yasmin B. Kafai",
+     "shared": [
+      "Scratch"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "size": 7,
+   "nodes": [
+    {
+     "id": "Bill Kalsow",
+     "languages": [
+      "Modula-3"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Greg Nelson",
+     "languages": [
+      "Modula-3"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "James Donahue",
+     "languages": [
+      "Modula-3"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Luca Cardelli",
+     "languages": [
+      "Amber",
+      "Modula-3"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Lucille Glassman",
+     "languages": [
+      "Modula-3"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "Mick Jordan",
+     "languages": [
+      "Modula-3"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "PhoenixHimself",
+     "languages": [
+      "Amber"
+     ],
+     "deg": 1
+    }
+   ],
+   "links": [
+    {
+     "source": "Bill Kalsow",
+     "target": "Luca Cardelli",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Bill Kalsow",
+     "target": "James Donahue",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Bill Kalsow",
+     "target": "Lucille Glassman",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Bill Kalsow",
+     "target": "Mick Jordan",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Bill Kalsow",
+     "target": "Greg Nelson",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Greg Nelson",
+     "target": "Luca Cardelli",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Greg Nelson",
+     "target": "James Donahue",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Greg Nelson",
+     "target": "Lucille Glassman",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Greg Nelson",
+     "target": "Mick Jordan",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "James Donahue",
+     "target": "Luca Cardelli",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "James Donahue",
+     "target": "Lucille Glassman",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "James Donahue",
+     "target": "Mick Jordan",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Luca Cardelli",
+     "target": "PhoenixHimself",
+     "shared": [
+      "Amber"
+     ]
+    },
+    {
+     "source": "Luca Cardelli",
+     "target": "Lucille Glassman",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Luca Cardelli",
+     "target": "Mick Jordan",
+     "shared": [
+      "Modula-3"
+     ]
+    },
+    {
+     "source": "Lucille Glassman",
+     "target": "Mick Jordan",
+     "shared": [
+      "Modula-3"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "size": 7,
+   "nodes": [
+    {
+     "id": "Gertrude Tierney",
+     "languages": [
+      "COBOL"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Grace Hopper",
+     "languages": [
+      "COBOL",
+      "FLOW-MATIC"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Howard Bromberg",
+     "languages": [
+      "COBOL"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Jean E. Sammet",
+     "languages": [
+      "COBOL",
+      "FORMAC",
+      "Magic Paper"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Norman Discount",
+     "languages": [
+      "COBOL"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Vernon Reeves",
+     "languages": [
+      "COBOL"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "William Selden",
+     "languages": [
+      "COBOL"
+     ],
+     "deg": 6
+    }
+   ],
+   "links": [
+    {
+     "source": "Gertrude Tierney",
+     "target": "Howard Bromberg",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Gertrude Tierney",
+     "target": "Norman Discount",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Gertrude Tierney",
+     "target": "Vernon Reeves",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Gertrude Tierney",
+     "target": "Jean E. Sammet",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Gertrude Tierney",
+     "target": "William Selden",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Gertrude Tierney",
+     "target": "Grace Hopper",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Grace Hopper",
+     "target": "Howard Bromberg",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Grace Hopper",
+     "target": "Norman Discount",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Grace Hopper",
+     "target": "Vernon Reeves",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Grace Hopper",
+     "target": "Jean E. Sammet",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Grace Hopper",
+     "target": "William Selden",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Howard Bromberg",
+     "target": "Norman Discount",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Howard Bromberg",
+     "target": "Vernon Reeves",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Howard Bromberg",
+     "target": "Jean E. Sammet",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Howard Bromberg",
+     "target": "William Selden",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Jean E. Sammet",
+     "target": "Norman Discount",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Jean E. Sammet",
+     "target": "Vernon Reeves",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Jean E. Sammet",
+     "target": "William Selden",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Norman Discount",
+     "target": "Vernon Reeves",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Norman Discount",
+     "target": "William Selden",
+     "shared": [
+      "COBOL"
+     ]
+    },
+    {
+     "source": "Vernon Reeves",
+     "target": "William Selden",
+     "shared": [
+      "COBOL"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 11,
+   "size": 7,
+   "nodes": [
+    {
+     "id": "Damien Katz",
+     "languages": [
+      "UnQL"
+     ],
+     "deg": 4
+    },
+    {
+     "id": "Dan Suciu",
+     "languages": [
+      "StruQL",
+      "UnQL"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Igor Tatarinov",
+     "languages": [
+      "StruQL"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Mary Fernandez",
+     "languages": [
+      "UnQL"
+     ],
+     "deg": 4
+    },
+    {
+     "id": "Mary Fernández",
+     "languages": [
+      "StruQL"
+     ],
+     "deg": 2
+    },
+    {
+     "id": "Peter Buneman",
+     "languages": [
+      "UnQL"
+     ],
+     "deg": 4
+    },
+    {
+     "id": "Richard Hipp",
+     "languages": [
+      "UnQL"
+     ],
+     "deg": 4
+    }
+   ],
+   "links": [
+    {
+     "source": "Damien Katz",
+     "target": "Richard Hipp",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Damien Katz",
+     "target": "Peter Buneman",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Damien Katz",
+     "target": "Mary Fernandez",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Damien Katz",
+     "target": "Dan Suciu",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Dan Suciu",
+     "target": "Mary Fernández",
+     "shared": [
+      "StruQL"
+     ]
+    },
+    {
+     "source": "Dan Suciu",
+     "target": "Igor Tatarinov",
+     "shared": [
+      "StruQL"
+     ]
+    },
+    {
+     "source": "Dan Suciu",
+     "target": "Richard Hipp",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Dan Suciu",
+     "target": "Peter Buneman",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Dan Suciu",
+     "target": "Mary Fernandez",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Igor Tatarinov",
+     "target": "Mary Fernández",
+     "shared": [
+      "StruQL"
+     ]
+    },
+    {
+     "source": "Mary Fernandez",
+     "target": "Richard Hipp",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Mary Fernandez",
+     "target": "Peter Buneman",
+     "shared": [
+      "UnQL"
+     ]
+    },
+    {
+     "source": "Peter Buneman",
+     "target": "Richard Hipp",
+     "shared": [
+      "UnQL"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 12,
+   "size": 7,
+   "nodes": [
+    {
+     "id": "CompilingCoder",
+     "languages": [
+      "Aardvark",
+      "Fardlang"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Hg0428",
+     "languages": [
+      "Aardvark",
+      "Fardlang"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "JustCoding123",
+     "languages": [
+      "Aardvark",
+      "Fardlang"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "PlasDev",
+     "languages": [
+      "Aardvark"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "TheBoys619",
+     "languages": [
+      "Aardvark"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "ZDev1",
+     "languages": [
+      "Aardvark"
+     ],
+     "deg": 5
+    },
+    {
+     "id": "zplusfour",
+     "languages": [
+      "Fardlang"
+     ],
+     "deg": 3
+    }
+   ],
+   "links": [
+    {
+     "source": "CompilingCoder",
+     "target": "Hg0428",
+     "shared": [
+      "Aardvark",
+      "Fardlang"
+     ]
+    },
+    {
+     "source": "CompilingCoder",
+     "target": "JustCoding123",
+     "shared": [
+      "Aardvark",
+      "Fardlang"
+     ]
+    },
+    {
+     "source": "CompilingCoder",
+     "target": "TheBoys619",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "CompilingCoder",
+     "target": "PlasDev",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "CompilingCoder",
+     "target": "ZDev1",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "CompilingCoder",
+     "target": "zplusfour",
+     "shared": [
+      "Fardlang"
+     ]
+    },
+    {
+     "source": "Hg0428",
+     "target": "JustCoding123",
+     "shared": [
+      "Aardvark",
+      "Fardlang"
+     ]
+    },
+    {
+     "source": "Hg0428",
+     "target": "TheBoys619",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "Hg0428",
+     "target": "PlasDev",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "Hg0428",
+     "target": "ZDev1",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "Hg0428",
+     "target": "zplusfour",
+     "shared": [
+      "Fardlang"
+     ]
+    },
+    {
+     "source": "JustCoding123",
+     "target": "TheBoys619",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "JustCoding123",
+     "target": "PlasDev",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "JustCoding123",
+     "target": "ZDev1",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "JustCoding123",
+     "target": "zplusfour",
+     "shared": [
+      "Fardlang"
+     ]
+    },
+    {
+     "source": "PlasDev",
+     "target": "TheBoys619",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "PlasDev",
+     "target": "ZDev1",
+     "shared": [
+      "Aardvark"
+     ]
+    },
+    {
+     "source": "TheBoys619",
+     "target": "ZDev1",
+     "shared": [
+      "Aardvark"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 13,
+   "size": 7,
+   "nodes": [
+    {
+     "id": "Compaq",
+     "languages": [
+      "USB"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "DEC",
+     "languages": [
+      "USB"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "IBM",
+     "languages": [
+      "USB"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Intel",
+     "languages": [
+      "USB"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Microsoft",
+     "languages": [
+      "AL",
+      "USB"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "NEC",
+     "languages": [
+      "USB"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Nortel",
+     "languages": [
+      "USB"
+     ],
+     "deg": 6
+    }
+   ],
+   "links": [
+    {
+     "source": "Compaq",
+     "target": "DEC",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Compaq",
+     "target": "IBM",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Compaq",
+     "target": "Intel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Compaq",
+     "target": "Microsoft",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Compaq",
+     "target": "NEC",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Compaq",
+     "target": "Nortel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "DEC",
+     "target": "IBM",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "DEC",
+     "target": "Intel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "DEC",
+     "target": "Microsoft",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "DEC",
+     "target": "NEC",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "DEC",
+     "target": "Nortel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "IBM",
+     "target": "Intel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "IBM",
+     "target": "Microsoft",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "IBM",
+     "target": "NEC",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "IBM",
+     "target": "Nortel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Intel",
+     "target": "Microsoft",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Intel",
+     "target": "NEC",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Intel",
+     "target": "Nortel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Microsoft",
+     "target": "NEC",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "Microsoft",
+     "target": "Nortel",
+     "shared": [
+      "USB"
+     ]
+    },
+    {
+     "source": "NEC",
+     "target": "Nortel",
+     "shared": [
+      "USB"
+     ]
+    }
+   ]
+  },
+  {
+   "rank": 14,
+   "size": 7,
+   "nodes": [
+    {
+     "id": "Emery D. Berger",
+     "languages": [
+      "Tea"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Eunice Jun",
+     "languages": [
+      "Tea"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Jared Roesch",
+     "languages": [
+      "Tea"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Katharina Reinecke",
+     "languages": [
+      "Tea"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Maureen Daum",
+     "languages": [
+      "Tea"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Rene Just",
+     "languages": [
+      "Tea"
+     ],
+     "deg": 6
+    },
+    {
+     "id": "Sarah E. Chasins",
+     "languages": [
+      "Tea"
+     ],
+     "deg": 6
+    }
+   ],
+   "links": [
+    {
+     "source": "Emery D. Berger",
+     "target": "Eunice Jun",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Emery D. Berger",
+     "target": "Maureen Daum",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Emery D. Berger",
+     "target": "Jared Roesch",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Emery D. Berger",
+     "target": "Sarah E. Chasins",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Emery D. Berger",
+     "target": "Rene Just",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Emery D. Berger",
+     "target": "Katharina Reinecke",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Eunice Jun",
+     "target": "Maureen Daum",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Eunice Jun",
+     "target": "Jared Roesch",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Eunice Jun",
+     "target": "Sarah E. Chasins",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Eunice Jun",
+     "target": "Rene Just",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Eunice Jun",
+     "target": "Katharina Reinecke",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Jared Roesch",
+     "target": "Maureen Daum",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Jared Roesch",
+     "target": "Sarah E. Chasins",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Jared Roesch",
+     "target": "Rene Just",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Jared Roesch",
+     "target": "Katharina Reinecke",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Katharina Reinecke",
+     "target": "Maureen Daum",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Katharina Reinecke",
+     "target": "Sarah E. Chasins",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Katharina Reinecke",
+     "target": "Rene Just",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Maureen Daum",
+     "target": "Sarah E. Chasins",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Maureen Daum",
+     "target": "Rene Just",
+     "shared": [
+      "Tea"
+     ]
+    },
+    {
+     "source": "Rene Just",
+     "target": "Sarah E. Chasins",
+     "shared": [
+      "Tea"
+     ]
+    }
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "a": "Mary Fernandez",
+   "b": "Mary Fernández",
+   "type": "FUZZY",
+   "why": "fuzzy similarity 0.93: 'mary fernandez' vs 'mary fernández'; share neighbor(s) ['Dan Suciu']"
+  },
+  {
+   "a": "PlasDev",
+   "b": "zplusfour",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['CompilingCoder', 'Hg0428', 'JustCoding123'] (jaccard 0.60)"
+  },
+  {
+   "a": "TheBoys619",
+   "b": "zplusfour",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['CompilingCoder', 'Hg0428', 'JustCoding123'] (jaccard 0.60)"
+  },
+  {
+   "a": "ZDev1",
+   "b": "zplusfour",
+   "type": "MISSING_EDGE",
+   "why": "not adjacent but share neighbor(s) ['CompilingCoder', 'Hg0428', 'JustCoding123'] (jaccard 0.60)"
+  }
+ ]
+}
