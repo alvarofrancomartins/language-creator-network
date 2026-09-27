@@ -14,10 +14,6 @@ There is no center. The largest cluster holds 16 people, 3% of the connected net
 
 **A null model confirms the fragmentation is real.** A uniformly random graph with the same 472 creators and 712 links would merge into one giant cluster of about 444 people, 94% of the connected network. The real network's largest cluster holds 16, so real collaboration is far more fragmented than random chance would produce.
 
-**What this shows**. In this dataset, most languages have one creator. The collaborations that do exist are small, closed teams, and they are disconnected from each other.
-
-Two caveats: PLDB records creators for only 1,182 of its 3,850 languages, so most have no creator data; and "collaboration" means only sharing a language, which says nothing about later contributors or maintainers. The languages without creator data are mostly corporate or committee-authored (VBScript, ABAP, VHDL, GLSL, and so on). 
-
 **The missing edges hid duplicate names**. A side benefit of working with the graph was name resolution. When several people are all credited as creators of the same language, they form a complete graph, so a missing edge is a clue: two people who never collaborated, or the same person listed under two names. Checking every connected component with a swarm of agents turned up 7 confirmed same-person pairs:
 
 - John G. Kemeny = John George Kemeny (BASIC)
@@ -28,6 +24,8 @@ Two caveats: PLDB records creators for only 1,182 of its 3,850 languages, so mos
 - Yann Le Cun         = Yann LeCun
 - John W. Cowan  = John Cowan
 
-Overall, the graph approach paid off twice: it showed how fragmented language creation is, and it recovered the people the data had recorded under two names.
+Overall, the graph approach paid off twice: it showed how fragmented language creation is, and it recovered the people the data had recorded under two names. I contributed these seven corrections back to PLDB repo, and they were merged upstream, so the corrected spellings are now part of the dataset itself.
 
-I contributed these seven corrections back to PLDB, and they were merged upstream, so the corrected spellings are now part of the dataset itself.
+**A summary**. In this dataset, most languages have one creator. The collaborations that do exist are small, closed teams, and they are disconnected from each other.
+
+**Two caveats**. PLDB records creators for only 1,182 of its 3,850 languages, so most have no creator data; and "collaboration" means only sharing a language, which says nothing about later contributors or maintainers. The languages without creator data are mostly corporate or committee-authored (VBScript, ABAP, VHDL, GLSL, and so on). 

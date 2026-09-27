@@ -1,4 +1,4 @@
-# Programming Language Co-authorship Network Analysis
+# Computer Language Co-authorship Network Analysis
 
 ![Creator co-authorship network](featured.png)
 
