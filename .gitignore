@@ -1,4 +1,4 @@
-# upstream data, cloned on demand (see `make data`)
+# upstream data, cloned on demand
 pldb/
 
 __pycache__/
