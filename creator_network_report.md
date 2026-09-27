@@ -1,5 +1,7 @@
 Most computer languages are built alone. That is what I found: of the 1,182 languages in the Programming Language Database (PLDB) that name their creators, 85% list a single author.
 
+![Creator co-authorship network](featured.png)
+
 **Computer language co-authorship network**. PLDB is a knowledge graph of computer languages. I projected the graph down to people, linking creators whenever they share a language.
 
 **When creators connect, they form closed groups**. The 472 creators who co-created a language form 148 separate clusters (connected components). 136 of them (92%) are complete graphs: everyone in the group has co-created with everyone else. Most cliques are tiny: 84 pairs, 26 trios, 10 groups of four, 7 of five, 5 of six, 1 of seven, 2 of eight, 1 of ten. Those 148 clusters split into 106 (72%) built from a single language, 30 (20%) complete graphs spanning several languages, and 12 (8%) that are not complete.
