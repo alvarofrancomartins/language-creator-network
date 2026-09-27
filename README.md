@@ -1,4 +1,4 @@
-# PLDB Creator Co-authorship Network
+# Programming Language Co-authorship Network Analysis
 
 ![Creator co-authorship network](featured.png)
 
