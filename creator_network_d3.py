@@ -23,14 +23,9 @@ import networkx as nx
 # PLDB indexes *concepts*, not just computer languages: it also has entries
 # for operating systems, hardware standards, file/data formats, protocols,
 # libraries, editors, etc. (each with a `tags` value like `os`, `standard`,
-# `dataNotation`). Only these tags count as languages, so the creator graph is
-# built from actual computer languages and nothing else.
-LANGUAGE_TAGS = {
-    "pl", "esolang", "functional", "lisp", "arrayLang",
-    "queryLanguage", "visual", "assembly", "contractLanguage",
-    "shadingLanguage", "hardwareDescriptionLanguage", "plzoo",
-    "diagramLang", "grammarLanguage", "idl", "stylesheetLanguage",
-}
+# `dataNotation`). The `pl` tag is PLDB's canonical programming-language
+# marker, so the creator graph is built from `pl` concepts only.
+LANGUAGE_TAGS = {"pl"}
 
 
 def _is_language(tags) -> bool:
@@ -514,7 +509,9 @@ function buildGraph() {
   // the confinement force keeps each component's shape compact.
   // ───────────────────────────────────────────────────────────────────
   const nComps = COMPONENTS.length || 1;
-  const gridN = Math.ceil(Math.sqrt(nComps));
+  // Match the grid's aspect ratio to the viewport so it fills the page's
+  // width and height instead of always forming a square.
+  const gridN = Math.min(nComps, Math.max(1, Math.ceil(Math.sqrt(nComps * (width / height)))));
   const gridRows = Math.ceil(nComps / gridN);
   const BASE = 120;    // px between two smallest components
   const PER_NODE = 2;  // extra px per node shared by two neighbouring columns
@@ -785,6 +782,10 @@ function updateGraph() {
 
   allNodes.forEach(n => { n.visDeg = degMap[n.id] || 0; });
 
+  // Isolated creators (degree 0) are never on a link, so they stay visible
+  // no matter what the weight filter is set to.
+  allNodes.forEach(n => { if ((n.deg || 0) === 0) activeNodes.add(n.id); });
+
   document.getElementById('s-nodes').textContent = fmt(activeNodes.size);
   document.getElementById('s-edges').textContent = fmt(edgeCount);
 
@@ -894,7 +895,9 @@ function fitView() {
   if (!svg) return;
   let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity, any = false;
   allNodes.forEach(n => {
-    if (n.visDeg <= 0) return;
+    // Skip nodes hidden by the weight filter, but keep isolated creators
+    // (degree 0) in the framing.
+    if (n.visDeg <= 0 && (n.deg || 0) > 0) return;
     if (n.x == null || n.y == null) return;
     any = true;
     x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x);
@@ -1033,7 +1036,7 @@ function buildSearch() {
   let hideTimeout = null;
 
   function getSortedNodes() {
-    const visible = allNodes.filter(n => n.visDeg > 0);
+    const visible = allNodes.filter(n => n.visDeg > 0 || (n.deg || 0) === 0);
     visible.sort((a, b) => (b.visDeg || 0) - (a.visDeg || 0));
     return visible;
   }

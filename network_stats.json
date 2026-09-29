@@ -16,115 +16,98 @@
     {
       "variant": "Daniel Weinreb",
       "canonical": "Dan Weinreb"
-    },
-    {
-      "variant": "Mary Fernandez",
-      "canonical": "Mary Fernández"
     }
   ],
-  "n_merges_applied": 3,
+  "n_merges_applied": 2,
   "structure": {
-    "multi_author_languages": 176,
+    "multi_author_languages": 141,
     "max_team_size": 13,
     "team_size_histogram": {
-      "2": 102,
-      "3": 37,
-      "4": 15,
-      "5": 7,
-      "6": 8,
+      "2": 88,
+      "3": 27,
+      "4": 13,
+      "5": 5,
+      "6": 5,
       "7": 2,
-      "8": 3,
-      "10": 1,
       "13": 1
     },
-    "pair_instances": 742,
-    "unique_edges": 712,
-    "pairs_sharing_multiple_languages": 27,
+    "pair_instances": 492,
+    "unique_edges": 468,
+    "pairs_sharing_multiple_languages": 21,
     "multi_language_pair_histogram": {
-      "2": 24,
+      "2": 18,
       "3": 3
     },
-    "creators_total": 1312,
-    "creators_in_one_language": 1163,
-    "creators_in_one_language_pct": 88.6
+    "creators_total": 1096,
+    "creators_in_one_language": 979,
+    "creators_in_one_language_pct": 89.3
   },
   "component_structure": {
-    "single_language_components": 106,
-    "single_language_pct": 71.6,
-    "umbrella_components": 30,
-    "umbrella_pct": 20.3,
-    "partial_overlap_components": 12,
-    "partial_overlap_pct": 8.1
-  },
-  "null_models": {
-    "observed_largest_component": 16,
-    "erdos_renyi": {
-      "giant_component": 444,
-      "giant_pct_of_connected": 94.1
-    }
+    "single_language_components": 89,
+    "single_language_pct": 73.6,
+    "umbrella_components": 25,
+    "umbrella_pct": 20.7,
+    "partial_overlap_components": 7,
+    "partial_overlap_pct": 5.8
   },
   "before": {
     "graph": {
-      "creators_total": 1315,
-      "creators_isolated": 840,
-      "creators_isolated_pct": 63.9,
-      "creators_connected": 475,
-      "edges": 715,
-      "connected_components": 148,
-      "complete_components": 135,
-      "complete_components_pct": 91.2,
-      "non_complete_components": 13,
-      "density_pct": 0.64,
+      "creators_total": 1098,
+      "creators_isolated": 739,
+      "creators_isolated_pct": 67.3,
+      "creators_connected": 359,
+      "edges": 470,
+      "connected_components": 121,
+      "complete_components": 113,
+      "complete_components_pct": 93.4,
+      "non_complete_components": 8,
+      "density_pct": 0.08,
       "largest_component": 16,
-      "largest_component_pct": 3.4,
-      "total_components_with_isolated": 988,
+      "largest_component_pct": 1.5,
+      "total_components_with_isolated": 860,
       "clique_size_histogram": {
-        "2": 83,
-        "3": 26,
-        "4": 10,
-        "5": 7,
-        "6": 5,
-        "7": 1,
-        "8": 2,
-        "10": 1
+        "2": 71,
+        "3": 21,
+        "4": 11,
+        "5": 5,
+        "6": 4,
+        "7": 1
       }
     },
     "languages": {
-      "languages_with_creators": 1182,
-      "single_author_languages": 1006,
-      "single_author_pct": 85.1
+      "languages_with_creators": 1016,
+      "single_author_languages": 875,
+      "single_author_pct": 86.1
     }
   },
   "after": {
     "graph": {
-      "creators_total": 1312,
-      "creators_isolated": 840,
-      "creators_isolated_pct": 64.0,
-      "creators_connected": 472,
-      "edges": 712,
-      "connected_components": 148,
-      "complete_components": 136,
-      "complete_components_pct": 91.9,
-      "non_complete_components": 12,
-      "density_pct": 0.64,
+      "creators_total": 1096,
+      "creators_isolated": 739,
+      "creators_isolated_pct": 67.4,
+      "creators_connected": 357,
+      "edges": 468,
+      "connected_components": 121,
+      "complete_components": 114,
+      "complete_components_pct": 94.2,
+      "non_complete_components": 7,
+      "density_pct": 0.08,
       "largest_component": 16,
-      "largest_component_pct": 3.4,
-      "total_components_with_isolated": 988,
+      "largest_component_pct": 1.5,
+      "total_components_with_isolated": 860,
       "clique_size_histogram": {
-        "2": 84,
-        "3": 26,
-        "4": 10,
-        "5": 7,
-        "6": 5,
-        "7": 1,
-        "8": 2,
-        "10": 1
+        "2": 72,
+        "3": 21,
+        "4": 11,
+        "5": 5,
+        "6": 4,
+        "7": 1
       }
     },
     "languages": {
-      "languages_with_creators": 1182,
-      "single_author_languages": 1006,
-      "single_author_pct": 85.1
+      "languages_with_creators": 1016,
+      "single_author_languages": 875,
+      "single_author_pct": 86.1
     }
   }
 }

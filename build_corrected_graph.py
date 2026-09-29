@@ -41,7 +41,7 @@ NAME_MERGES = {
 
 def main():
     df = load_pldb(CONCEPTS)
-    G = build_creator_projection(df, drop_isolated=True, name_map=NAME_MERGES)
+    G = build_creator_projection(df, drop_isolated=False, name_map=NAME_MERGES)
 
     data = graph_to_data(G)
     with open(JSON_OUT, "w", encoding="utf-8") as f:
@@ -51,7 +51,7 @@ def main():
 
     print(f"creators: {G.number_of_nodes()}  links: {G.number_of_edges()}")
     comps = sorted({d["component"] for _, d in G.nodes(data=True)})
-    print(f"connected components: {len(comps)}")
+    print(f"components (incl. isolated): {len(comps)}")
     print(f"Wrote {JSON_OUT}")
     print(f"Wrote {HTML_OUT}")
 

@@ -12,9 +12,8 @@ Usage:
 
 from __future__ import annotations
 import json
-import math
 import os
-from collections import Counter, defaultdict
+from collections import Counter
 
 import networkx as nx
 
@@ -73,7 +72,9 @@ def graph_stats(G):
             clique_hist[k] += 1
         largest = max(largest, k)
 
-    density = (2 * n_edges / (n_conn * (n_conn - 1))) if n_conn > 1 else 0.0
+    # Density over ALL creators (isolated included), so solo authors pull
+    # the denominator down and the whole-network density is what's reported.
+    density = (2 * n_edges / (n_all * (n_all - 1))) if n_all > 1 else 0.0
     return {
         "creators_total": n_all,
         "creators_isolated": n_iso,
@@ -86,7 +87,7 @@ def graph_stats(G):
         "non_complete_components": n_components - n_complete,
         "density_pct": round(100 * density, 2),
         "largest_component": largest,
-        "largest_component_pct": round(100 * largest / n_conn, 1) if n_conn else 0.0,
+        "largest_component_pct": round(100 * largest / n_all, 1) if n_all else 0.0,
         "total_components_with_isolated": n_components + n_iso,
         "clique_size_histogram": dict(sorted(clique_hist.items())),
     }
@@ -201,71 +202,6 @@ def component_structure(G):
     }
 
 
-def null_models(df, name_map=None):
-    """Erdos-Renyi null: how big the largest cluster would be at random.
-
-    A uniformly random graph with the same creators and links is compared
-    against the real graph. Its giant component solves 1 - S = exp(-c S)
-    with c = 2m/n (the analytic G(n, m) fixed point), so no simulation is
-    needed. `observed_largest_component` is the real graph's largest
-    cluster, kept for the comparison.
-    """
-    teams = _teams(df, name_map)
-    connected = sorted({p for t in teams for p in t})
-    n = len(connected)
-
-    pair_shared = Counter()
-    for t in teams:
-        for i in range(len(t)):
-            for j in range(i + 1, len(t)):
-                a, b = sorted((t[i], t[j]))
-                pair_shared[(a, b)] += 1
-    n_edges = len(pair_shared)
-
-    def largest(assignments):
-        adj = defaultdict(set)
-        for members in assignments:
-            ml = list(members)
-            for a in range(len(ml)):
-                for b in range(a + 1, len(ml)):
-                    adj[ml[a]].add(ml[b])
-                    adj[ml[b]].add(ml[a])
-        seen = set()
-        best = 0
-        for nd in list(adj):
-            if nd in seen:
-                continue
-            stack = [nd]
-            seen.add(nd)
-            sz = 0
-            while stack:
-                x = stack.pop()
-                sz += 1
-                for y in adj[x]:
-                    if y not in seen:
-                        seen.add(y)
-                        stack.append(y)
-            best = max(best, sz)
-        return best
-
-    observed = largest([set(t) for t in teams])
-
-    # Erdos-Renyi G(n, m) giant component (analytic fixed point).
-    c = 2 * n_edges / n
-    S = 0.5
-    for _ in range(200):
-        S = 1 - math.exp(-c * S)
-    er_giant = round(S * n)
-
-    return {
-        "observed_largest_component": observed,
-        "erdos_renyi": {
-            "giant_component": er_giant,
-            "giant_pct_of_connected": round(100 * er_giant / n, 1),
-        },
-    }
-
-
 def main():
     df = load_pldb(CONCEPTS)
 
@@ -288,7 +224,6 @@ def main():
         "n_merges_applied": len(merges_applied),
         "structure": structure_stats(df, NAME_MERGES),
         "component_structure": component_structure(G_after),
-        "null_models": null_models(df, NAME_MERGES),
         "before": {
             "graph": graph_stats(G_before),
             "languages": lang_before,
@@ -344,7 +279,6 @@ def main():
 
     st = result["structure"]
     cs = result["component_structure"]
-    nm = result["null_models"]
 
     print()
     print("component structure (after merges):")
@@ -359,11 +293,6 @@ def main():
     print(f"  pair instances (sum C(s,2)): {st['pair_instances']}  unique edges: {st['unique_edges']}")
     print(f"  pairs sharing >=2 languages: {st['pairs_sharing_multiple_languages']} {st['multi_language_pair_histogram']}")
     print(f"  creators in exactly one language: {st['creators_in_one_language']} / {st['creators_total']} ({st['creators_in_one_language_pct']}%)")
-
-    print()
-    print("null model (largest component):")
-    print(f"  observed: {nm['observed_largest_component']}")
-    print(f"  ER G(n,m) giant: {nm['erdos_renyi']['giant_component']} ({nm['erdos_renyi']['giant_pct_of_connected']}% of connected)")
 
     print(f"\nWrote {OUT}")
 
