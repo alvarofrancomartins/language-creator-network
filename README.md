@@ -1,6 +1,6 @@
 # Computer Language Co-authorship Network Analysis
 
-![Creator co-authorship network](featured.png)
+![Creator co-authorship network](featured_image.png)
 
 One-mode projection of the Programming Language Database (PLDB): two creators
 are linked when they co-created at least one computer language.
