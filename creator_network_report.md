@@ -1,6 +1,6 @@
 Building a programming language is mostly a solo job. Of the 1,016 programming languages in the Programming Language Database (PLDB) that name their creators, 86% list a single author.
 
-![Creator co-authorship network](featured.png)
+![Creator co-authorship network](featured_image.png)
 
 A few weeks ago I got curious about how people collaborate to create programming languages. Then I came across PLDB, a public knowledge graph of programming languages. I projected the graph down to people, linking creators whenever they share a language. The results below are from a preliminary analysis.
 
